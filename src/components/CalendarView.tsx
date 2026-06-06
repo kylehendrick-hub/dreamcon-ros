@@ -178,11 +178,11 @@ export default function CalendarView() {
       </div>
 
       {/* Calendar grid */}
-      <div className="flex rounded-xl border border-zinc-800/60 bg-zinc-950/50 overflow-hidden">
+      <div className="flex rounded-xl border border-zinc-800/60 bg-zinc-950/50 overflow-visible">
         {/* Time gutter */}
         <div className="shrink-0 w-24 bg-zinc-950/80 border-r border-zinc-800/60">
-          {/* Spacer for header */}
-          <div className="h-0" />
+          {/* Spacer so the first time label isn't clipped */}
+          <div className="h-5" />
           {timeSlots.map((hour, i) => {
             const h = hour > 12 ? hour - 12 : hour;
             const ampm = hour >= 12 ? "PM" : "AM";
@@ -202,13 +202,13 @@ export default function CalendarView() {
         </div>
 
         {/* Main calendar area */}
-        <div className="flex-1 relative" style={{ height: `${TOTAL_HOURS * HOUR_HEIGHT}px` }}>
+        <div className="flex-1 relative" style={{ height: `${TOTAL_HOURS * HOUR_HEIGHT + 20}px`, paddingTop: "20px" }}>
           {/* Hour gridlines */}
           {timeSlots.map((hour) => (
             <div
               key={hour}
               className="absolute left-0 right-0 border-t border-zinc-800/40"
-              style={{ top: `${(hour - START_HOUR) * HOUR_HEIGHT}px` }}
+              style={{ top: `${(hour - START_HOUR) * HOUR_HEIGHT + 20}px` }}
             />
           ))}
           {/* Half-hour gridlines */}
@@ -216,7 +216,7 @@ export default function CalendarView() {
             <div
               key={`half-${hour}`}
               className="absolute left-0 right-0 border-t border-zinc-800/20 border-dashed"
-              style={{ top: `${(hour - START_HOUR) * HOUR_HEIGHT + HOUR_HEIGHT / 2}px` }}
+              style={{ top: `${(hour - START_HOUR) * HOUR_HEIGHT + HOUR_HEIGHT / 2 + 20}px` }}
             />
           ))}
 
@@ -354,7 +354,7 @@ function BlockCard({
   overrideHeight?: number;
 }) {
   const colors = typeColorMap[block.type] || typeColorMap.session;
-  const topPx = ((block.startMin - START_HOUR * 60) / 60) * HOUR_HEIGHT;
+  const topPx = ((block.startMin - START_HOUR * 60) / 60) * HOUR_HEIGHT + 20;
   const heightPx = overrideHeight ?? Math.max((block.durationMin / 60) * HOUR_HEIGHT, 22);
   const isSmall = heightPx < 50;
   const isTiny = heightPx < 30;
