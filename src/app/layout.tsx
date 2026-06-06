@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "DREAMCON S26 — Run of Show",
-  description: "Capital Factory & STATION — June 22-25, 2026",
+  description: "STATION Austin Downtown — June 22-25, 2026",
 };
 
 export default function RootLayout({

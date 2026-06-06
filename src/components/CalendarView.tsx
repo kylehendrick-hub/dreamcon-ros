@@ -125,7 +125,26 @@ export default function CalendarView() {
 
   const timeSlots = Array.from({ length: TOTAL_HOURS + 1 }, (_, i) => START_HOUR + i);
 
+  // Sort and cap block heights to prevent overlaps
+  const capOverlaps = (blocks: SessionBlock[]): (SessionBlock & { cappedHeight: number })[] => {
+    const sorted = [...blocks].sort((a, b) => a.startMin - b.startMin);
+    return sorted.map((block, i) => {
+      const rawHeight = (block.durationMin / 60) * HOUR_HEIGHT;
+      const minHeight = 22;
+      let maxHeight = rawHeight;
+      // Cap to not overlap the next block
+      if (i < sorted.length - 1) {
+        const gapPx = ((sorted[i + 1].startMin - block.startMin) / 60) * HOUR_HEIGHT;
+        maxHeight = Math.max(gapPx - 2, minHeight); // 2px gap
+      }
+      return { ...block, cappedHeight: Math.max(Math.min(rawHeight, maxHeight), minHeight) };
+    });
+  };
+
   const current = processedDays[selectedDay];
+  const cappedJoint = capOverlaps(current.jointBlocks);
+  const cappedCf = capOverlaps(current.cfBlocks);
+  const cappedStation = capOverlaps(current.stationBlocks);
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-6">
@@ -161,7 +180,7 @@ export default function CalendarView() {
       {/* Calendar grid */}
       <div className="flex rounded-xl border border-zinc-800/60 bg-zinc-950/50 overflow-hidden">
         {/* Time gutter */}
-        <div className="shrink-0 w-20 bg-zinc-950/80 border-r border-zinc-800/60">
+        <div className="shrink-0 w-24 bg-zinc-950/80 border-r border-zinc-800/60">
           {/* Spacer for header */}
           <div className="h-0" />
           {timeSlots.map((hour, i) => {
@@ -173,9 +192,9 @@ export default function CalendarView() {
                 className="relative"
                 style={{ height: i < timeSlots.length - 1 ? `${HOUR_HEIGHT}px` : "0px" }}
               >
-                <div className="absolute -top-3 right-4 flex items-baseline gap-0.5">
-                  <span className="text-sm font-mono font-medium text-zinc-400">{h}</span>
-                  <span className="text-[10px] font-mono text-zinc-600">{ampm}</span>
+                <div className="absolute -top-3.5 right-3 flex items-baseline gap-1">
+                  <span className="text-base font-mono font-semibold text-zinc-300">{h}</span>
+                  <span className="text-xs font-mono font-medium text-zinc-500">{ampm}</span>
                 </div>
               </div>
             );
@@ -209,13 +228,14 @@ export default function CalendarView() {
           )}
 
           {/* Joint session blocks — full width */}
-          {current.jointBlocks.map((block, i) => {
+          {cappedJoint.map((block, i) => {
             const isMinor = block.type === "break" || block.type === "buffer" || block.type === "end";
             return (
               <BlockCard
                 key={`j-${i}`}
                 block={block}
                 isMinor={isMinor}
+                overrideHeight={block.cappedHeight}
                 style={{
                   left: "6px",
                   right: "6px",
@@ -229,13 +249,14 @@ export default function CalendarView() {
           })}
 
           {/* CF track blocks — left half */}
-          {current.cfBlocks.map((block, i) => {
+          {cappedCf.map((block, i) => {
             const isMinor = block.type === "break" || block.type === "buffer" || block.type === "end";
             return (
               <BlockCard
                 key={`cf-${i}`}
                 block={block}
                 isMinor={isMinor}
+                overrideHeight={block.cappedHeight}
                 style={{
                   left: "6px",
                   right: "calc(50% + 3px)",
@@ -251,13 +272,14 @@ export default function CalendarView() {
           })}
 
           {/* STATION track blocks — right half */}
-          {current.stationBlocks.map((block, i) => {
+          {cappedStation.map((block, i) => {
             const isMinor = block.type === "break" || block.type === "buffer" || block.type === "end";
             return (
               <BlockCard
                 key={`st-${i}`}
                 block={block}
                 isMinor={isMinor}
+                overrideHeight={block.cappedHeight}
                 style={{
                   left: "calc(50% + 3px)",
                   right: "6px",
@@ -318,6 +340,7 @@ function BlockCard({
   onHover,
   onLeave,
   dayColor,
+  overrideHeight,
 }: {
   block: SessionBlock;
   isMinor: boolean;
@@ -328,10 +351,11 @@ function BlockCard({
   onHover: () => void;
   onLeave: () => void;
   dayColor: string;
+  overrideHeight?: number;
 }) {
   const colors = typeColorMap[block.type] || typeColorMap.session;
   const topPx = ((block.startMin - START_HOUR * 60) / 60) * HOUR_HEIGHT;
-  const heightPx = Math.max((block.durationMin / 60) * HOUR_HEIGHT, 24);
+  const heightPx = overrideHeight ?? Math.max((block.durationMin / 60) * HOUR_HEIGHT, 22);
   const isSmall = heightPx < 50;
   const isTiny = heightPx < 30;
 

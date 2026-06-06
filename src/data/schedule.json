@@ -1,9 +1,9 @@
 {
   "event": {
     "name": "DREAMCON S26",
-    "subtitle": "Summer 2026 — Capital Factory & STATION",
+    "subtitle": "Summer 2026 — STATION Austin Downtown",
     "dates": "June 22–25, 2026",
-    "location": "Capital Factory Austin Downtown"
+    "location": "STATION Austin Downtown"
   },
   "days": [
     {
@@ -22,7 +22,7 @@
           "title": "Staff Travel to Austin",
           "owner": "",
           "format": "",
-          "description": "Out-of-town and STATION staff travel to Austin. Local staff report to CF Austin Downtown.",
+          "description": "Out-of-town and STATION staff travel to Austin. Local staff report to STATION Austin Downtown.",
           "logistics": "Omni Hotel block for lodging",
           "type": "logistics"
         },
@@ -92,7 +92,7 @@
           "title": "Safety Reminders",
           "owner": "Megan",
           "format": "Presentation",
-          "description": "Quick building safety/security overview — emergency exits, rally points, emergency contacts, after-hours access. Especially important for out-of-town STATION staff unfamiliar with CF Austin Downtown.",
+          "description": "Quick building safety/security overview — emergency exits, rally points, emergency contacts, after-hours access. Especially important for out-of-town STATION staff unfamiliar with STATION Austin Downtown.",
           "logistics": "",
           "type": "session"
         },
