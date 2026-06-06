@@ -365,7 +365,7 @@
           "format": "Joint",
           "description": "Protected midday break. Staff catch up on email and recharge.",
           "logistics": "",
-          "type": "break"
+          "type": "social"
         },
         {
           "time": "1:25 PM",
@@ -537,7 +537,7 @@
           "format": "Joint",
           "description": "Protected midday break.",
           "logistics": "",
-          "type": "break"
+          "type": "social"
         },
         {
           "time": "1:05 PM",
@@ -729,6 +729,16 @@
             "room": "Voltron",
             "sessions": [
               {
+                "time": "11:05 AM",
+                "duration": "35 min",
+                "title": "Free Time — Emails & Recharge",
+                "owner": "",
+                "format": "",
+                "description": "STATION staff have free time while CF does their Exec AMA. Catch up on email, recharge, or continue department conversations from HECs.",
+                "logistics": "",
+                "type": "break"
+              },
+              {
                 "time": "11:40 AM",
                 "duration": "10 min",
                 "title": "Break — Josh walks from Captain America to Voltron",
@@ -758,7 +768,7 @@
           "format": "Joint",
           "description": "",
           "logistics": "",
-          "type": "break"
+          "type": "social"
         },
         {
           "time": "1:25 PM",
