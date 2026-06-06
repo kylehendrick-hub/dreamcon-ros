@@ -9,8 +9,25 @@
 
 body {
   font-family: var(--font-sans), system-ui, sans-serif;
-  background: #0f0f0f;
+  background: #0a0a0a;
   color: #e5e5e5;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Calendar tooltip */
+.calendar-tooltip {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.calendar-block:hover .calendar-tooltip {
+  pointer-events: auto;
+  opacity: 1;
 }
 
 @media print {

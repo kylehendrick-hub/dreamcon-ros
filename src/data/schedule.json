@@ -114,8 +114,7 @@
           "format": "Introductions — 30 sec each, hard cap",
           "description": "Each team member who joined since DCW25 introduces themselves — name, role, team, one fun fact. 30 seconds each, hard cap. Kyle keeps time. A moment for new people to be seen and welcomed by the full Dreamteam.",
           "logistics": "Get list of new hires from HR. Prep name order.",
-          "type": "session",
-          "fix": 4
+          "type": "session"
         },
         {
           "time": "3:00 PM",
@@ -145,9 +144,7 @@
           "format": "Hands-on workshop",
           "description": "Every staff member installs Claude Code on their machine — terminal for Mac, PowerShell for Windows. Hands-on, everyone follows along step by step. By the end, every Dreamteamer has a working AI coding agent on their laptop.",
           "logistics": "Confirm wifi capacity. Have troubleshooting helpers ready.",
-          "type": "workshop",
-          "fix": 2,
-          "fixNote": "Moved from Day 2"
+          "type": "workshop"
         },
         {
           "time": "4:10 PM",
@@ -307,8 +304,7 @@
                 "owner": "Mary",
                 "format": "Facilitated discussion",
                 "description": "Mary facilitates a dedicated session on STATION's brand and identity. What makes STATION different from CF? How do we differentiate? What are we most proud of? Directly addresses STATION team feedback that they need their own identity and morale building. This is STATION's moment.",
-                "logistics": "Mary texts/Slacks Josh the top 3 themes by 10:30 so he has them before STATION North Star.",
-                "fix": 1
+                "logistics": "Mary texts/Slacks Josh the top 3 themes by 10:30 so he has them before STATION North Star."
               },
               {
                 "time": "10:30 AM",
@@ -327,8 +323,7 @@
                 "owner": "Josh",
                 "format": "CEO keynote",
                 "description": "Josh's strategic keynote for STATION — acknowledging STATION's unique value, where operations/coworking is headed, what makes STATION special. Morale and pride building. Josh should reference themes from Mary's STATION Identity session.",
-                "logistics": "Josh prep: Mary will text/Slack top themes from her 10:00 session. Review during the break.",
-                "fix": 1
+                "logistics": "Josh prep: Mary will text/Slack top themes from her 10:00 session. Review during the break."
               },
               {
                 "time": "11:20 AM",
@@ -347,8 +342,7 @@
                 "owner": "STATION Dept Leads",
                 "format": "5-min presentations",
                 "description": "9 departments present individually (5 min each = 45 min). Smallest 2-3 depts (Gifts & Gear, CDUI, STATION DC) share a single combined slide (5 min total). 50 min total. Strict 5-min limit with visible timer. Canva deck format.",
-                "logistics": "STATION Canva templates. Individual: Sales, Commons, Systems, Mentor, Marketing, Events, Venue, Workplace, VIP. Shared slide: Gifts & Gear, CDUI, STATION DC",
-                "fix": 3
+                "logistics": "STATION Canva templates. Individual: Sales, Commons, Systems, Mentor, Marketing, Events, Venue, Workplace, VIP. Shared slide: Gifts & Gear, CDUI, STATION DC"
               }
             ]
           }
@@ -381,9 +375,7 @@
           "format": "Structured 1-on-1 walk",
           "description": "Paired with someone on a different team. Prompt: 'Share something about your life outside of work — what you're into, where you're from, what matters to you.' Depth is optional — go as deep as feels natural. Builds real human connection across departments and entities.",
           "logistics": "Pairings ensure CF/STATION staff are mixed.",
-          "type": "activity",
-          "fix": 9,
-          "fixNote": "Softened prompt"
+          "type": "activity"
         },
         {
           "time": "1:50 PM",
@@ -393,9 +385,7 @@
           "format": "Competition",
           "description": "Quick 10-min team game to keep energy high.",
           "logistics": "",
-          "type": "activity",
-          "fix": 8,
-          "fixNote": "Was missing from schedule"
+          "type": "activity"
         },
         {
           "time": "2:00 PM",
@@ -405,9 +395,7 @@
           "format": "Hands-on workshop",
           "description": "Troubleshooting for anyone who had issues on Day 1. Advanced setup tips, MCP servers, custom commands. Helpers float to unblock stuck machines.",
           "logistics": "Have troubleshooting helpers ready. Track who still needs help before MVP build.",
-          "type": "workshop",
-          "fix": 2,
-          "fixNote": "Was full install, moved to Day 1"
+          "type": "workshop"
         },
         {
           "time": "2:20 PM",
@@ -427,8 +415,7 @@
           "format": "Team competition + AI build",
           "description": "The AI Con centerpiece. Each Startup Cup team gets 90 min to build a working web app using Claude Code. Fun app ideas provided: CF Compliment Generator / DREAMCON Bingo / Lunch Decider / Who Said It? / STATION Tour Guide. Teams submit their URL to COSEA/Josh for judging. Winner announced Day 3. This is where staff see AI go from concept to a real shipped product — in 90 minutes.",
           "logistics": "Have app idea cards printed. Submission form ready. Seed each team with at least one person who completed Day 1 delegation.school. Float troubleshooters during the build.",
-          "type": "workshop",
-          "fix": 5
+          "type": "workshop"
         },
         {
           "time": "4:00 PM",
@@ -438,9 +425,7 @@
           "format": "Presentation",
           "description": "Former CF/STATION team member shares their post-CF career journey.",
           "logistics": "",
-          "type": "session",
-          "fix": 6,
-          "fixNote": "Lock name this week"
+          "type": "session"
         },
         {
           "time": "4:15 PM",
@@ -492,9 +477,7 @@
           "format": "Presentation",
           "description": "Former CF/STATION team member shares their post-CF career journey.",
           "logistics": "",
-          "type": "session",
-          "fix": 6,
-          "fixNote": "Lock name this week"
+          "type": "session"
         },
         {
           "time": "9:20 AM",
@@ -795,9 +778,7 @@
           "format": "Competition + celebration",
           "description": "Final Startup Cup scores tallied across all 4 days of games + the MVP build. Winning team announced. Prizes awarded. The crowd goes wild.",
           "logistics": "Scoring spreadsheet finalized. Prizes ready.",
-          "type": "activity",
-          "fix": 8,
-          "fixNote": "Was '5 days'"
+          "type": "activity"
         },
         {
           "time": "2:55 PM",
@@ -827,9 +808,7 @@
           "format": "Presentation",
           "description": "Final alumni speaker shares their post-CF career journey. Ends the spotlight series on a high note before Josh closes.",
           "logistics": "",
-          "type": "session",
-          "fix": 6,
-          "fixNote": "Lock name this week"
+          "type": "session"
         },
         {
           "time": "3:50 PM",
@@ -863,16 +842,5 @@
         }
       ]
     }
-  ],
-  "changeLog": [
-    { "fix": 1, "type": "must-fix", "description": "STATION North Star / Identity conflict: Mary texts Josh top 3 themes from STATION Identity by 10:30 so he has them before STATION North Star at 10:45. Logistics updated on both sessions (Day 2)." },
-    { "fix": 2, "type": "must-fix", "description": "Claude Code install moved from Day 2 (1:50 PM) to Day 1 (3:45 PM) so delegation.school works. Day 2 session relabeled as \"Troubleshooting & Advanced Setup\" (20 min)." },
-    { "fix": 3, "type": "timing", "description": "STATION Leadership Reports trimmed to fit 50-min block: 9 individual presentations + 1 shared slide for Gifts & Gear, CDUI, STATION DC (Day 2)." },
-    { "fix": 4, "type": "timing", "description": "New Faces: added \"30 sec each, hard cap. Kyle keeps time.\" (Day 1)" },
-    { "fix": 5, "type": "timing", "description": "MVP Build: seed each team with a Day 1 delegation.school graduate. Float troubleshooters. (Day 2)" },
-    { "fix": 6, "type": "cleanup", "description": "Alumni Spotlights: 3 of 4 still TBD (Days 2, 3, 4). Lock names this week." },
-    { "fix": 7, "type": "cleanup", "description": "Version control: archive other ROS copies in Drive. This doc is the source of truth." },
-    { "fix": 8, "type": "cleanup", "description": "Startup Cup Finals: \"5 days of games\" changed to \"4 days of games\". Game 2 was missing — added to Day 2 at 1:50 PM." },
-    { "fix": 9, "type": "cleanup", "description": "Walk & Talk Round 2 prompt softened: \"talk about your parents\" changed to \"share something about your life outside of work.\" Depth optional. (Day 2)" }
   ]
 }

@@ -7,52 +7,68 @@ interface Session {
   description: string;
   logistics: string;
   type?: string;
-  fix?: number;
-  fixNote?: string;
 }
 
-const typeStyles: Record<string, string> = {
-  break:
-    "bg-zinc-800/30 border-l-zinc-600",
-  buffer:
-    "bg-zinc-800/20 border-l-zinc-700",
-  end:
-    "bg-zinc-800/40 border-l-zinc-500",
-  keynote:
-    "bg-zinc-800/60 border-l-amber-500",
-  workshop:
-    "bg-zinc-800/60 border-l-sky-500",
-  activity:
-    "bg-zinc-800/60 border-l-pink-500",
-  social:
-    "bg-zinc-800/60 border-l-purple-500",
-  logistics:
-    "bg-zinc-800/30 border-l-zinc-600",
-  session:
-    "bg-zinc-800/50 border-l-zinc-400",
+const typeStyles: Record<string, { row: string; border: string }> = {
+  break: {
+    row: "bg-transparent",
+    border: "border-l-zinc-700/50",
+  },
+  buffer: {
+    row: "bg-transparent",
+    border: "border-l-zinc-800/50",
+  },
+  end: {
+    row: "bg-transparent",
+    border: "border-l-zinc-600/50",
+  },
+  keynote: {
+    row: "bg-zinc-900/40 hover:bg-zinc-800/50",
+    border: "border-l-amber-500",
+  },
+  workshop: {
+    row: "bg-zinc-900/40 hover:bg-zinc-800/50",
+    border: "border-l-sky-500",
+  },
+  activity: {
+    row: "bg-zinc-900/40 hover:bg-zinc-800/50",
+    border: "border-l-pink-500",
+  },
+  social: {
+    row: "bg-zinc-900/40 hover:bg-zinc-800/50",
+    border: "border-l-purple-500",
+  },
+  logistics: {
+    row: "bg-transparent",
+    border: "border-l-zinc-700/50",
+  },
+  session: {
+    row: "bg-zinc-900/30 hover:bg-zinc-800/40",
+    border: "border-l-zinc-500",
+  },
 };
 
 const formatBadgeColors: Record<string, string> = {
-  "Presentation": "bg-blue-900/50 text-blue-300",
-  "Presentation + Q&A": "bg-blue-900/50 text-blue-300",
-  "CEO keynote": "bg-amber-900/50 text-amber-300",
-  "CEO closing": "bg-amber-900/50 text-amber-300",
-  "Competition": "bg-pink-900/50 text-pink-300",
-  "Competition + celebration": "bg-pink-900/50 text-pink-300",
-  "Interactive presentation": "bg-emerald-900/50 text-emerald-300",
-  "Hands-on workshop": "bg-sky-900/50 text-sky-300",
-  "Live workshop": "bg-sky-900/50 text-sky-300",
-  "Live demos + workshop": "bg-sky-900/50 text-sky-300",
-  "Team competition + AI build": "bg-sky-900/50 text-sky-300",
-  "Small-group working sessions": "bg-teal-900/50 text-teal-300",
-  "Structured 1-on-1 walk": "bg-green-900/50 text-green-300",
-  "Awards ceremony": "bg-yellow-900/50 text-yellow-300",
-  "Social event": "bg-purple-900/50 text-purple-300",
-  "Personal reflection": "bg-indigo-900/50 text-indigo-300",
-  "Open Q&A": "bg-orange-900/50 text-orange-300",
+  "Presentation": "bg-blue-500/10 text-blue-400 ring-1 ring-blue-500/20",
+  "Presentation + Q&A": "bg-blue-500/10 text-blue-400 ring-1 ring-blue-500/20",
+  "CEO keynote": "bg-amber-500/10 text-amber-400 ring-1 ring-amber-500/20",
+  "CEO closing": "bg-amber-500/10 text-amber-400 ring-1 ring-amber-500/20",
+  "Competition": "bg-pink-500/10 text-pink-400 ring-1 ring-pink-500/20",
+  "Competition + celebration": "bg-pink-500/10 text-pink-400 ring-1 ring-pink-500/20",
+  "Interactive presentation": "bg-emerald-500/10 text-emerald-400 ring-1 ring-emerald-500/20",
+  "Hands-on workshop": "bg-sky-500/10 text-sky-400 ring-1 ring-sky-500/20",
+  "Live workshop": "bg-sky-500/10 text-sky-400 ring-1 ring-sky-500/20",
+  "Live demos + workshop": "bg-sky-500/10 text-sky-400 ring-1 ring-sky-500/20",
+  "Team competition + AI build": "bg-sky-500/10 text-sky-400 ring-1 ring-sky-500/20",
+  "Small-group working sessions": "bg-teal-500/10 text-teal-400 ring-1 ring-teal-500/20",
+  "Structured 1-on-1 walk": "bg-green-500/10 text-green-400 ring-1 ring-green-500/20",
+  "Awards ceremony": "bg-yellow-500/10 text-yellow-400 ring-1 ring-yellow-500/20",
+  "Social event": "bg-purple-500/10 text-purple-400 ring-1 ring-purple-500/20",
+  "Personal reflection": "bg-indigo-500/10 text-indigo-400 ring-1 ring-indigo-500/20",
+  "Open Q&A": "bg-orange-500/10 text-orange-400 ring-1 ring-orange-500/20",
 };
 
-export default function SessionRow({ session }: { session: Session }) {
+export default function SessionRow({ session, compact }: { session: Session; compact?: boolean }) {
   const t = session.type || "session";
   const style = typeStyles[t] || typeStyles.session;
   const isBreak = t === "break" || t === "buffer";
@@ -60,16 +76,18 @@ export default function SessionRow({ session }: { session: Session }) {
 
   if (isBreak) {
     return (
-      <div className={`flex items-center gap-3 px-4 py-2 border-l-4 rounded-r ${style}`}>
-        <span className="text-xs font-mono text-zinc-500 w-[72px] shrink-0">
+      <div className="flex items-center gap-3 px-4 py-1.5 border-l-2 border-l-zinc-800/40 ml-[1px]">
+        <span className="text-[11px] font-mono text-zinc-600 w-[68px] shrink-0 tabular-nums">
           {session.time}
         </span>
-        <span className="text-xs text-zinc-500 w-[52px] shrink-0">
+        <span className="text-[11px] text-zinc-700 w-[48px] shrink-0">
           {session.duration}
         </span>
-        <span className="text-sm text-zinc-500 italic">
+        <span className="text-xs text-zinc-600 italic">
           {session.title}
-          {session.description && ` — ${session.description}`}
+          {session.description && (
+            <span className="text-zinc-700"> -- {session.description}</span>
+          )}
         </span>
       </div>
     );
@@ -77,67 +95,64 @@ export default function SessionRow({ session }: { session: Session }) {
 
   if (isEnd) {
     return (
-      <div className={`flex items-center gap-3 px-4 py-2 border-l-4 rounded-r ${style}`}>
-        <span className="text-xs font-mono text-zinc-400 w-[72px] shrink-0">
+      <div className="flex items-center gap-3 px-4 py-1.5 border-l-2 border-l-zinc-700/40 ml-[1px]">
+        <span className="text-[11px] font-mono text-zinc-600 w-[68px] shrink-0 tabular-nums">
           {session.time}
         </span>
-        <span className="text-sm font-semibold text-zinc-400">{session.title}</span>
+        <span className="text-xs font-medium text-zinc-600 uppercase tracking-wider">
+          {session.title}
+        </span>
       </div>
     );
   }
 
   const badgeColor = session.format
-    ? formatBadgeColors[session.format] || "bg-zinc-700/50 text-zinc-400"
+    ? formatBadgeColors[session.format] || "bg-zinc-500/10 text-zinc-400 ring-1 ring-zinc-500/20"
     : null;
 
   return (
-    <div className={`border-l-4 rounded-r px-4 py-3 ${style} ${session.fix ? "ring-1 ring-amber-500/30" : ""}`}>
-      <div className="flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-3">
+    <div
+      className={`border-l-3 rounded-r-md px-4 py-3 transition-colors ${style.row} ${style.border}`}
+    >
+      <div className="flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-4">
         {/* Time + Duration */}
         <div className="flex items-baseline gap-2 shrink-0">
-          <span className="text-sm font-mono font-semibold text-zinc-200 w-[72px]">
+          <span className="text-sm font-mono font-medium text-zinc-300 w-[68px] tabular-nums">
             {session.time}
           </span>
-          <span className="text-xs text-zinc-500 w-[52px]">{session.duration}</span>
+          <span className="text-[11px] text-zinc-600 w-[48px]">{session.duration}</span>
         </div>
 
         {/* Content */}
         <div className="flex-1 min-w-0">
-          <div className="flex flex-wrap items-center gap-2">
-            <h3 className="text-sm font-semibold text-zinc-100">{session.title}</h3>
-            {session.fix && (
-              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-amber-900/50 text-amber-300">
-                FIX #{session.fix}
-                {session.fixNote && ` — ${session.fixNote}`}
-              </span>
-            )}
-          </div>
+          <h3 className="text-sm font-semibold text-zinc-100 leading-snug">
+            {session.title}
+          </h3>
 
-          <div className="flex flex-wrap items-center gap-2 mt-1">
-            {session.owner && (
-              <span className="text-xs text-zinc-400">
-                {session.owner}
-              </span>
-            )}
-            {session.owner && session.format && (
-              <span className="text-zinc-600">·</span>
-            )}
-            {badgeColor && session.format && (
-              <span className={`text-[10px] font-medium px-2 py-0.5 rounded-full ${badgeColor}`}>
-                {session.format}
-              </span>
-            )}
-          </div>
+          {(session.owner || session.format) && (
+            <div className="flex flex-wrap items-center gap-2 mt-1">
+              {session.owner && (
+                <span className="text-xs text-zinc-400">{session.owner}</span>
+              )}
+              {badgeColor && session.format && (
+                <span
+                  className={`text-[10px] font-medium px-2 py-0.5 rounded-full ${badgeColor}`}
+                >
+                  {session.format}
+                </span>
+              )}
+            </div>
+          )}
 
-          {session.description && (
-            <p className="mt-1.5 text-xs text-zinc-400 leading-relaxed">
+          {!compact && session.description && (
+            <p className="mt-1.5 text-xs text-zinc-500 leading-relaxed">
               {session.description}
             </p>
           )}
 
-          {session.logistics && (
-            <p className="mt-1 text-[11px] text-zinc-500 leading-relaxed">
-              <span className="font-semibold text-zinc-400">Logistics:</span>{" "}
+          {!compact && session.logistics && (
+            <p className="mt-1 text-[11px] text-zinc-600 leading-relaxed">
+              <span className="font-medium text-zinc-500">Logistics:</span>{" "}
               {session.logistics}
             </p>
           )}

@@ -1,17 +1,14 @@
-import schedule from "@/data/schedule.json";
 import Header from "@/components/Header";
 import DayNav from "@/components/DayNav";
-import DaySection from "@/components/DaySection";
+import CalendarView from "@/components/CalendarView";
 
-export default function Home() {
+export default function CalendarPage() {
   return (
     <div className="min-h-screen bg-[#0a0a0a]">
       <Header />
       <DayNav />
-      <main className="max-w-6xl mx-auto px-4 py-8 space-y-12">
-        {schedule.days.map((day) => (
-          <DaySection key={day.id} day={day} />
-        ))}
+      <main className="max-w-7xl mx-auto">
+        <CalendarView />
         <footer className="text-center text-[10px] text-zinc-700 py-8 border-t border-zinc-900">
           DREAMCON S26 Run of Show
         </footer>

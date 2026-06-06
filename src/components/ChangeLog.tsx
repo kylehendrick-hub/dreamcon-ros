@@ -7,7 +7,7 @@ const typeColors: Record<string, string> = {
 };
 
 export default function ChangeLog() {
-  const { changeLog } = schedule;
+  const changeLog = (schedule as Record<string, unknown>).changeLog as Array<{ fix: number; type: string; description: string }> | undefined;
   if (!changeLog || changeLog.length === 0) return null;
 
   return (
