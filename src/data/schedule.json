@@ -1,0 +1,878 @@
+{
+  "event": {
+    "name": "DREAMCON S26",
+    "subtitle": "Summer 2026 — Capital Factory & STATION",
+    "dates": "June 22–25, 2026",
+    "location": "Capital Factory Austin Downtown"
+  },
+  "days": [
+    {
+      "id": "day1",
+      "dayNumber": 1,
+      "date": "Monday, June 22",
+      "title": "Arrival / Alignment / Kickoff",
+      "theme": "Welcome home, one team, set the tone",
+      "attire": "Travel casual → Austin Chic for party",
+      "trackMode": "All Joint — no split tracks",
+      "color": "emerald",
+      "sessions": [
+        {
+          "time": "Morning",
+          "duration": "",
+          "title": "Staff Travel to Austin",
+          "owner": "",
+          "format": "",
+          "description": "Out-of-town and STATION staff travel to Austin. Local staff report to CF Austin Downtown.",
+          "logistics": "Omni Hotel block for lodging",
+          "type": "logistics"
+        },
+        {
+          "time": "12:00 PM",
+          "duration": "60 min",
+          "title": "Light Bites — Mingle & Headshots",
+          "owner": "Allison",
+          "format": "Casual / unstructured",
+          "description": "Staff arrive, grab food, catch up, get professional headshots taken. Babson Diagnostics arrives ~noon to set up blood-testing activation in a separate area.",
+          "logistics": "Catering setup by 11:30 AM. Photographer station needed.",
+          "type": "session"
+        },
+        {
+          "time": "1:00 PM",
+          "duration": "5 min",
+          "title": "All Staff Photo",
+          "owner": "Kyle",
+          "format": "All-staff",
+          "description": "Annual group photo of the entire Dreamteam. Used for internal comms, social media, and the DCS26 highlight video.",
+          "logistics": "Need photographer + designated spot (lobby or Voltron stage)",
+          "type": "session"
+        },
+        {
+          "time": "1:05 PM",
+          "duration": "20 min",
+          "title": "Mingle continues",
+          "owner": "",
+          "format": "",
+          "description": "Buffer before programming starts. Staff finish headshots and settle in.",
+          "logistics": "",
+          "type": "buffer"
+        },
+        {
+          "time": "1:25 PM",
+          "duration": "5 min",
+          "title": "Welcome & Run of Show Overview",
+          "owner": "Kyle",
+          "format": "Presentation",
+          "description": "Kyle kicks off DREAMCON — quick overview of the week: what's happening each day, ground rules, logistics, and expectations. Sets the energy.",
+          "logistics": "Need slide with 4-day overview",
+          "type": "keynote"
+        },
+        {
+          "time": "1:30 PM",
+          "duration": "20 min",
+          "title": "FOUNDER STORY: Babson Diagnostics",
+          "owner": "Web Golinkin (CEO)",
+          "format": "Presentation + Q&A",
+          "description": "Portfolio company founder shares their journey building Babson Diagnostics. 15 min presentation + 5 min Q&A. Reminds the team why Capital Factory exists — we back founders building real things. Blood-testing demo available during breaks.",
+          "logistics": "Presenter needs AV/screen. Confirm deck format.",
+          "type": "keynote"
+        },
+        {
+          "time": "1:50 PM",
+          "duration": "10 min",
+          "title": "Break",
+          "owner": "",
+          "format": "",
+          "description": "Babson blood-testing demo available in a separate area for interested staff.",
+          "logistics": "",
+          "type": "break"
+        },
+        {
+          "time": "2:00 PM",
+          "duration": "10 min",
+          "title": "Safety Reminders",
+          "owner": "Megan",
+          "format": "Presentation",
+          "description": "Quick building safety/security overview — emergency exits, rally points, emergency contacts, after-hours access. Especially important for out-of-town STATION staff unfamiliar with CF Austin Downtown.",
+          "logistics": "",
+          "type": "session"
+        },
+        {
+          "time": "2:10 PM",
+          "duration": "30 min",
+          "title": "CORE VALUES",
+          "owner": "Josh + CV Winners",
+          "format": "Interactive presentation",
+          "description": "Josh introduces CF's 6 core values (5 min) then each of last DREAMCON's 6 Core Value Award winners speaks ~3 min on what their value means to them personally. Audience participates — share examples of how you've seen others embody each value. This is culture-setting, not a lecture.",
+          "logistics": "Winners from DCW25: Aubrey, Jonathan Randall, Naomi, Sofia Wynn, Valerie, Eli Springer",
+          "type": "keynote"
+        },
+        {
+          "time": "2:40 PM",
+          "duration": "20 min",
+          "title": "New Faces",
+          "owner": "Kyle",
+          "format": "Introductions — 30 sec each, hard cap",
+          "description": "Each team member who joined since DCW25 introduces themselves — name, role, team, one fun fact. 30 seconds each, hard cap. Kyle keeps time. A moment for new people to be seen and welcomed by the full Dreamteam.",
+          "logistics": "Get list of new hires from HR. Prep name order.",
+          "type": "session",
+          "fix": 4
+        },
+        {
+          "time": "3:00 PM",
+          "duration": "35 min",
+          "title": "STARTUP CUP — Intro, Team Assignments + Game 1",
+          "owner": "Kyle / Aless",
+          "format": "Competition",
+          "description": "Multi-day team competition kicks off. Kyle explains the format, ~10 teams are assigned (balanced across CF/STATION, departments, tenure, DISC types), teams pick names. Game 1 starts immediately. Running leaderboard tracked all week.",
+          "logistics": "Teams pre-built. Scoring spreadsheet ready. Prizes purchased.",
+          "type": "activity"
+        },
+        {
+          "time": "3:35 PM",
+          "duration": "10 min",
+          "title": "Break",
+          "owner": "",
+          "format": "",
+          "description": "",
+          "logistics": "",
+          "type": "break"
+        },
+        {
+          "time": "3:45 PM",
+          "duration": "25 min",
+          "title": "Install Claude Code — Live Tutorial",
+          "owner": "Fred / Josh / Kyle",
+          "format": "Hands-on workshop",
+          "description": "Every staff member installs Claude Code on their machine — terminal for Mac, PowerShell for Windows. Hands-on, everyone follows along step by step. By the end, every Dreamteamer has a working AI coding agent on their laptop.",
+          "logistics": "Confirm wifi capacity. Have troubleshooting helpers ready.",
+          "type": "workshop",
+          "fix": 2,
+          "fixNote": "Moved from Day 2"
+        },
+        {
+          "time": "4:10 PM",
+          "duration": "20 min",
+          "title": "delegation.school (AI Workflow Training)",
+          "owner": "Josh",
+          "format": "Live workshop",
+          "description": "Josh walks everyone through his AI workflow training course (delegation.school). Staff already have Claude Code installed from the previous session. This session pulls out certain examples people have done and shows others what is possible. Also used to gather feedback.",
+          "logistics": "Confirm wifi can handle all staff on Claude Code simultaneously.",
+          "type": "workshop"
+        },
+        {
+          "time": "4:30 PM",
+          "duration": "15 min",
+          "title": "Alumni Spotlight #1",
+          "owner": "Jake O'Shea",
+          "format": "Presentation",
+          "description": "Former CF/STATION team member returns to share their post-CF career story — where they went, what they built, how CF prepared them. A reminder that Capital Factory is a launchpad for careers.",
+          "logistics": "Reach out 6+ weeks in advance.",
+          "type": "session"
+        },
+        {
+          "time": "4:45 PM",
+          "duration": "5 min",
+          "title": "Closing Remarks",
+          "owner": "Mary",
+          "format": "",
+          "description": "Mary wraps Day 1 — quick recap, preview of tomorrow, logistics for the party.",
+          "logistics": "",
+          "type": "session"
+        },
+        {
+          "time": "4:50 PM",
+          "duration": "30 min",
+          "title": "Travel to Malverde",
+          "owner": "",
+          "format": "",
+          "description": "",
+          "logistics": "",
+          "type": "logistics"
+        },
+        {
+          "time": "5:20 PM",
+          "duration": "3 hours",
+          "title": "DREAMTEAM PARTY + Awards & Anniversaries",
+          "owner": "Allison",
+          "format": "Social event",
+          "description": "Staff social at Malverde. Rumi Lane Embroidery station: staff bring 1 clothing item to get personally stitched OR get a comfort color tee with STATION or CF on back/sleeve + name on pocket. Photobooth, spin-the-wheel prizes, DJ. Awards & Anniversaries: tenure milestones recognized with tiered gifts (2yr coin, 3yr keyring, 4yr book, 5yr Tiffany necklace/cufflinks). This is the culture highlight of DREAMCON.",
+          "logistics": "Venue: Malverde. DJ, photobooth, Rumi Lane booked. Anniversary gifts purchased and ready.",
+          "type": "social"
+        },
+        {
+          "time": "8:20 PM",
+          "duration": "",
+          "title": "End of Day 1",
+          "owner": "",
+          "format": "",
+          "description": "",
+          "logistics": "",
+          "type": "end"
+        }
+      ]
+    },
+    {
+      "id": "day2",
+      "dayNumber": 2,
+      "date": "Tuesday, June 23",
+      "title": "North Stars / Leadership Reports / AI Con",
+      "theme": "",
+      "attire": "",
+      "trackMode": "Split tracks mid-morning",
+      "color": "blue",
+      "sessions": [
+        {
+          "time": "9:00 AM",
+          "duration": "5 min",
+          "title": "Welcome & Breakfast",
+          "owner": "Kyle",
+          "format": "Joint",
+          "description": "",
+          "logistics": "",
+          "type": "session"
+        },
+        {
+          "time": "9:05 AM",
+          "duration": "20 min",
+          "title": "FOUNDER STORY: Bravo Ordnance",
+          "owner": "Devan / Kevin",
+          "format": "Presentation + Q&A",
+          "description": "Portfolio company founder shares their journey building in the defense/munitions space. 15 min presentation + 5 min Q&A.",
+          "logistics": "Confirm presenter + deck",
+          "type": "keynote"
+        },
+        {
+          "time": "9:25 AM",
+          "duration": "35 min",
+          "title": "Walk & Talk Round 1 — Someone on your team you work closely with",
+          "owner": "David R.",
+          "format": "Structured 1-on-1 walk",
+          "description": "Paired walking conversation. Each pair gets a prompt: 'Describe what you like most about your job and the moments when you feel the best.' Get outside if weather permits. Builds deeper bonds within existing teams.",
+          "logistics": "Pairings finalized 1 week out. Print handouts or post on Slack.",
+          "type": "activity"
+        },
+        {
+          "type": "splitTrack",
+          "time": "10:00 AM",
+          "label": "Josh does CF first, walks to STATION after break",
+          "cf": {
+            "room": "Captain America",
+            "sessions": [
+              {
+                "time": "10:00 AM",
+                "duration": "35 min",
+                "title": "CF NORTH STAR",
+                "owner": "Josh",
+                "format": "CEO keynote",
+                "description": "Josh's strategic keynote for Capital Factory — where the venture/investment side is headed, key priorities for H2 2026, what's changing, what's staying the course. This is the single most important session for CF staff.",
+                "logistics": "Josh deck finalized 1 week out. COS does prep session with Josh."
+              },
+              {
+                "time": "10:35 AM",
+                "duration": "10 min",
+                "title": "Break — Josh walks to Voltron",
+                "owner": "",
+                "format": "",
+                "description": "",
+                "logistics": "",
+                "type": "break"
+              },
+              {
+                "time": "10:45 AM",
+                "duration": "30 min",
+                "title": "What We Do & What We're Proud Of",
+                "owner": "CF Dept Leads",
+                "format": "Interactive / Bryan Chambers",
+                "description": "CF department leads share their team's wins and vision. Framework: one simple thing we can do now, one dream thing we're working toward, one immediate thing we need help with.",
+                "logistics": ""
+              },
+              {
+                "time": "11:15 AM",
+                "duration": "55 min",
+                "title": "CF LEADERSHIP REPORTS",
+                "owner": "CF Dept Leads",
+                "format": "5-min presentations",
+                "description": "Each CF department presents: what the team does, big wins since DCW25, key metrics, what's coming next. 7 departments x 5 min + buffer. Canva deck format. Strict 5-min limit with visible timer.",
+                "logistics": "CF Canva template. Timer visible. 7 depts: All Access Fund, Texas Fund, Fellowship Fund, Venture Programs, IR, Customer Engagement, Gov Programs"
+              }
+            ]
+          },
+          "station": {
+            "room": "Voltron",
+            "sessions": [
+              {
+                "time": "10:00 AM",
+                "duration": "30 min",
+                "title": "STATION IDENTITY",
+                "owner": "Mary",
+                "format": "Facilitated discussion",
+                "description": "Mary facilitates a dedicated session on STATION's brand and identity. What makes STATION different from CF? How do we differentiate? What are we most proud of? Directly addresses STATION team feedback that they need their own identity and morale building. This is STATION's moment.",
+                "logistics": "Mary texts/Slacks Josh the top 3 themes by 10:30 so he has them before STATION North Star.",
+                "fix": 1
+              },
+              {
+                "time": "10:30 AM",
+                "duration": "15 min",
+                "title": "Break — Josh walks over from Captain America",
+                "owner": "",
+                "format": "",
+                "description": "",
+                "logistics": "",
+                "type": "break"
+              },
+              {
+                "time": "10:45 AM",
+                "duration": "35 min",
+                "title": "STATION NORTH STAR",
+                "owner": "Josh",
+                "format": "CEO keynote",
+                "description": "Josh's strategic keynote for STATION — acknowledging STATION's unique value, where operations/coworking is headed, what makes STATION special. Morale and pride building. Josh should reference themes from Mary's STATION Identity session.",
+                "logistics": "Josh prep: Mary will text/Slack top themes from her 10:00 session. Review during the break.",
+                "fix": 1
+              },
+              {
+                "time": "11:20 AM",
+                "duration": "5 min",
+                "title": "Break",
+                "owner": "",
+                "format": "",
+                "description": "",
+                "logistics": "",
+                "type": "break"
+              },
+              {
+                "time": "11:25 AM",
+                "duration": "50 min",
+                "title": "STATION LEADERSHIP REPORTS",
+                "owner": "STATION Dept Leads",
+                "format": "5-min presentations",
+                "description": "9 departments present individually (5 min each = 45 min). Smallest 2-3 depts (Gifts & Gear, CDUI, STATION DC) share a single combined slide (5 min total). 50 min total. Strict 5-min limit with visible timer. Canva deck format.",
+                "logistics": "STATION Canva templates. Individual: Sales, Commons, Systems, Mentor, Marketing, Events, Venue, Workplace, VIP. Shared slide: Gifts & Gear, CDUI, STATION DC",
+                "fix": 3
+              }
+            ]
+          }
+        },
+        {
+          "time": "12:15 PM",
+          "duration": "10 min",
+          "title": "Safety Reminder",
+          "owner": "Megan",
+          "format": "Joint",
+          "description": "",
+          "logistics": "",
+          "type": "session"
+        },
+        {
+          "time": "12:25 PM",
+          "duration": "60 min",
+          "title": "Lunch & Emails",
+          "owner": "",
+          "format": "Joint",
+          "description": "Protected midday break. Staff catch up on email and recharge.",
+          "logistics": "",
+          "type": "break"
+        },
+        {
+          "time": "1:25 PM",
+          "duration": "25 min",
+          "title": "Walk & Talk Round 2 — Someone on another team you work with",
+          "owner": "David R.",
+          "format": "Structured 1-on-1 walk",
+          "description": "Paired with someone on a different team. Prompt: 'Share something about your life outside of work — what you're into, where you're from, what matters to you.' Depth is optional — go as deep as feels natural. Builds real human connection across departments and entities.",
+          "logistics": "Pairings ensure CF/STATION staff are mixed.",
+          "type": "activity",
+          "fix": 9,
+          "fixNote": "Softened prompt"
+        },
+        {
+          "time": "1:50 PM",
+          "duration": "10 min",
+          "title": "Startup Cup Game 2",
+          "owner": "Kyle / Aless",
+          "format": "Competition",
+          "description": "Quick 10-min team game to keep energy high.",
+          "logistics": "",
+          "type": "activity",
+          "fix": 8,
+          "fixNote": "Was missing from schedule"
+        },
+        {
+          "time": "2:00 PM",
+          "duration": "20 min",
+          "title": "Claude Code Troubleshooting & Advanced Setup",
+          "owner": "Fred / Josh / Kyle",
+          "format": "Hands-on workshop",
+          "description": "Troubleshooting for anyone who had issues on Day 1. Advanced setup tips, MCP servers, custom commands. Helpers float to unblock stuck machines.",
+          "logistics": "Have troubleshooting helpers ready. Track who still needs help before MVP build.",
+          "type": "workshop",
+          "fix": 2,
+          "fixNote": "Was full install, moved to Day 1"
+        },
+        {
+          "time": "2:20 PM",
+          "duration": "10 min",
+          "title": "Break",
+          "owner": "",
+          "format": "",
+          "description": "",
+          "logistics": "",
+          "type": "break"
+        },
+        {
+          "time": "2:30 PM",
+          "duration": "90 min",
+          "title": "STARTUP CUP — Build an MVP",
+          "owner": "Fred / Josh / Aless",
+          "format": "Team competition + AI build",
+          "description": "The AI Con centerpiece. Each Startup Cup team gets 90 min to build a working web app using Claude Code. Fun app ideas provided: CF Compliment Generator / DREAMCON Bingo / Lunch Decider / Who Said It? / STATION Tour Guide. Teams submit their URL to COSEA/Josh for judging. Winner announced Day 3. This is where staff see AI go from concept to a real shipped product — in 90 minutes.",
+          "logistics": "Have app idea cards printed. Submission form ready. Seed each team with at least one person who completed Day 1 delegation.school. Float troubleshooters during the build.",
+          "type": "workshop",
+          "fix": 5
+        },
+        {
+          "time": "4:00 PM",
+          "duration": "15 min",
+          "title": "Alumni Spotlight #2",
+          "owner": "TBD",
+          "format": "Presentation",
+          "description": "Former CF/STATION team member shares their post-CF career journey.",
+          "logistics": "",
+          "type": "session",
+          "fix": 6,
+          "fixNote": "Lock name this week"
+        },
+        {
+          "time": "4:15 PM",
+          "duration": "10 min",
+          "title": "Closing Remarks",
+          "owner": "Eric Stober",
+          "format": "",
+          "description": "Eric wraps Day 2 — recap of the AI builds, preview of Day 3.",
+          "logistics": "",
+          "type": "session"
+        },
+        {
+          "time": "4:25 PM",
+          "duration": "",
+          "title": "End of Day 2",
+          "owner": "",
+          "format": "",
+          "description": "",
+          "logistics": "",
+          "type": "end"
+        }
+      ]
+    },
+    {
+      "id": "day3",
+      "dayNumber": 3,
+      "date": "Wednesday, June 24",
+      "title": "AI Tools / Interlocks / Dept Working Sessions",
+      "theme": "",
+      "attire": "",
+      "trackMode": "Split tracks afternoon",
+      "color": "amber",
+      "sessions": [
+        {
+          "time": "9:00 AM",
+          "duration": "5 min",
+          "title": "Welcome & Breakfast",
+          "owner": "Kyle",
+          "format": "Joint",
+          "description": "Kyle opens Day 3 and announces the Startup Cup MVP winner from Day 2's app build. Big points awarded.",
+          "logistics": "Have winner ready + demo URL on screen",
+          "type": "session"
+        },
+        {
+          "time": "9:05 AM",
+          "duration": "15 min",
+          "title": "Alumni Spotlight #3",
+          "owner": "TBD",
+          "format": "Presentation",
+          "description": "Former CF/STATION team member shares their post-CF career journey.",
+          "logistics": "",
+          "type": "session",
+          "fix": 6,
+          "fixNote": "Lock name this week"
+        },
+        {
+          "time": "9:20 AM",
+          "duration": "25 min",
+          "title": "Walk & Talk Round 3 — Someone you don't typically interact with",
+          "owner": "David R.",
+          "format": "Structured 1-on-1 walk",
+          "description": "Final Walk & Talk round. Paired with someone you don't normally interact with — intentionally crosses CF/STATION lines. Prompt: 'Describe your job at CF/STATION.' Builds understanding of what other teams actually do day-to-day.",
+          "logistics": "Pairings ensure maximum cross-entity mixing.",
+          "type": "activity"
+        },
+        {
+          "time": "9:45 AM",
+          "duration": "45 min",
+          "title": "Josh's Tools — Live Tutorials",
+          "owner": "Josh / Kyle",
+          "format": "Live demos + workshop",
+          "description": "Live tutorials on the AI tools Josh uses and has built: RelRadar (relationship intelligence), MultiPOV (multi-perspective analysis), Trademarc (trademark search), Witt (writing assistant), and others. Josh demos each tool, explains when to use it, and staff follow along. Practical AI adoption — not theory, real tools for real work.",
+          "logistics": "Ensure tools are accessible to all staff. Have login/access ready.",
+          "type": "workshop"
+        },
+        {
+          "time": "10:30 AM",
+          "duration": "10 min",
+          "title": "Break",
+          "owner": "",
+          "format": "",
+          "description": "",
+          "logistics": "",
+          "type": "break"
+        },
+        {
+          "time": "10:40 AM",
+          "duration": "75 min",
+          "title": "CROSS-ENTITY INTERLOCK",
+          "owner": "Various",
+          "format": "Small-group working sessions",
+          "description": "CF and STATION staff work together in small mixed groups on shared challenges. Every group has a facilitator, notetaker, and must produce a defined outcome with owners and deadlines. Topics: collaboration on cornerstone events, shared workflows, automation opportunities. This is the #1 priority from CF feedback — building real working rapport between the two entities.",
+          "logistics": "Interlock submissions collected in advance. Room assignments posted. Outcome templates distributed.",
+          "type": "workshop"
+        },
+        {
+          "time": "11:55 AM",
+          "duration": "10 min",
+          "title": "Startup Cup Game 3",
+          "owner": "Kyle / Aless",
+          "format": "Competition",
+          "description": "Quick 10-min team game to break up the day and keep energy high.",
+          "logistics": "",
+          "type": "activity"
+        },
+        {
+          "time": "12:05 PM",
+          "duration": "60 min",
+          "title": "Lunch & Emails",
+          "owner": "",
+          "format": "Joint",
+          "description": "Protected midday break.",
+          "logistics": "",
+          "type": "break"
+        },
+        {
+          "time": "1:05 PM",
+          "duration": "10 min",
+          "title": "Safety Reminder",
+          "owner": "Megan",
+          "format": "Joint",
+          "description": "",
+          "logistics": "",
+          "type": "session"
+        },
+        {
+          "type": "splitTrack",
+          "time": "1:15 PM",
+          "label": "",
+          "cf": {
+            "room": "Captain America",
+            "sessions": [
+              {
+                "time": "1:15 PM",
+                "duration": "65 min",
+                "title": "INTERLOCK Round 2",
+                "owner": "CF Leads",
+                "format": "Small-group working sessions",
+                "description": "CF-only interlocks. Smaller groups than past DREAMCONs (per feedback that groups were too big). Every interlock has a facilitator, notetaker, and must produce a defined outcome with owners and deadlines. This is where real cross-department problems get solved.",
+                "logistics": ""
+              }
+            ]
+          },
+          "station": {
+            "room": "Voltron",
+            "sessions": [
+              {
+                "time": "1:15 PM",
+                "duration": "65 min",
+                "title": "INTERLOCK Round 2",
+                "owner": "STATION Leads",
+                "format": "Small-group working sessions",
+                "description": "STATION-only interlocks. Same format — smaller groups, defined outcomes required. Focus on STATION-specific operational challenges.",
+                "logistics": ""
+              }
+            ]
+          }
+        },
+        {
+          "time": "2:20 PM",
+          "duration": "10 min",
+          "title": "Startup Cup Game 4",
+          "owner": "Kyle / Aless",
+          "format": "Competition",
+          "description": "Quick team game.",
+          "logistics": "",
+          "type": "activity"
+        },
+        {
+          "time": "2:30 PM",
+          "duration": "90 min",
+          "title": "DEPARTMENT WORKING SESSIONS",
+          "owner": "Dept Managers",
+          "format": "By department — hands-on work time",
+          "description": "Each department gets 90 min of protected time with their immediate team. Focus: automation and AI workflows specific to their work. What can we automate right now? What AI tools should we adopt? What are the things we never have time for day-to-day? This is not a discussion session — teams should leave with something built, automated, or shipped. The most valuable block of the week per past DREAMCON feedback.",
+          "logistics": "Dept managers prep agenda in advance. Each team should have a deliverable.",
+          "type": "workshop"
+        },
+        {
+          "time": "4:00 PM",
+          "duration": "20 min",
+          "title": "FOUNDER STORY: Elysium Robotics",
+          "owner": "Rodrigo Alvarez (CEO)",
+          "format": "Presentation + Q&A",
+          "description": "Portfolio company founder shares their journey building in robotics. 15 min presentation + 5 min Q&A.",
+          "logistics": "Rodrigo available after 11 AM only. Confirm deck.",
+          "type": "keynote"
+        },
+        {
+          "time": "4:20 PM",
+          "duration": "10 min",
+          "title": "Closing Remarks",
+          "owner": "Bryan",
+          "format": "",
+          "description": "Bryan wraps Day 3 — recap of AI day, preview of Day 4 celebrations.",
+          "logistics": "",
+          "type": "session"
+        },
+        {
+          "time": "4:30 PM",
+          "duration": "",
+          "title": "End of Day 3",
+          "owner": "",
+          "format": "",
+          "description": "",
+          "logistics": "",
+          "type": "end"
+        }
+      ]
+    },
+    {
+      "id": "day4",
+      "dayNumber": 4,
+      "date": "Thursday, June 25",
+      "title": "HECs / Exec AMAs / Finals / Closing",
+      "theme": "",
+      "attire": "",
+      "trackMode": "Split tracks morning, staggered AMAs",
+      "color": "violet",
+      "sessions": [
+        {
+          "time": "9:00 AM",
+          "duration": "5 min",
+          "title": "Welcome & Breakfast",
+          "owner": "Kyle",
+          "format": "Joint",
+          "description": "",
+          "logistics": "",
+          "type": "session"
+        },
+        {
+          "time": "9:05 AM",
+          "duration": "20 min",
+          "title": "FOUNDER STORY: AlphaRose",
+          "owner": "Casey",
+          "format": "Presentation + Q&A",
+          "description": "Portfolio company founder shares their journey building AlphaRose. 15 min presentation + 5 min Q&A.",
+          "logistics": "Casey confirmed for Thursday 9 AM. 10-15 min + Q&A.",
+          "type": "keynote"
+        },
+        {
+          "time": "9:25 AM",
+          "duration": "10 min",
+          "title": "Startup Cup Game 5",
+          "owner": "Kyle / Aless",
+          "format": "Competition",
+          "description": "Final regular-season game before the afternoon finals.",
+          "logistics": "",
+          "type": "activity"
+        },
+        {
+          "type": "splitTrack",
+          "time": "9:35 AM",
+          "label": "By Department",
+          "cf": {
+            "room": "By Department",
+            "sessions": [
+              {
+                "time": "9:35 AM",
+                "duration": "90 min",
+                "title": "HECs + Fix It",
+                "owner": "Dept Managers",
+                "format": "Department working sessions",
+                "description": "90-min block in two parts. First half (~60 min): each department documents their Hopes, Expectations, and Concerns for H2 2026. Managers facilitate. Results collected and shared with exec team post-DREAMCON. Second half (~30 min): each team picks their #1 most broken workflow and works to actually solve it in the room. Real solutions with owners — not just discussion. Framework: what's broken, what's the fix, who owns it, by when.",
+                "logistics": "HEC templates distributed to managers in advance. Shared folder for submissions."
+              }
+            ]
+          },
+          "station": {
+            "room": "By Department",
+            "sessions": [
+              {
+                "time": "9:35 AM",
+                "duration": "90 min",
+                "title": "HECs + Fix It",
+                "owner": "Dept Managers",
+                "format": "Department working sessions",
+                "description": "90-min block in two parts. First half (~60 min): each department documents their Hopes, Expectations, and Concerns for H2 2026. Managers facilitate. Results collected and shared with exec team post-DREAMCON. Second half (~30 min): each team picks their #1 most broken workflow and works to actually solve it in the room.",
+                "logistics": "HEC templates distributed to managers in advance. Shared folder for submissions."
+              }
+            ]
+          }
+        },
+        {
+          "type": "splitTrack",
+          "time": "11:05 AM",
+          "label": "Staggered Exec AMA — Josh attends both",
+          "cf": {
+            "room": "Captain America",
+            "sessions": [
+              {
+                "time": "11:05 AM",
+                "duration": "35 min",
+                "title": "CF EXEC AMA",
+                "owner": "Josh / Bryan / Kyle",
+                "format": "Open Q&A",
+                "description": "CF staff ask anonymous pre-submitted questions to the exec panel. No question is a dumb question. Candid, honest, transparent answers. COS moderates — reads questions by theme, panel responds. This is the most-requested session at every DREAMCON.",
+                "logistics": "AMA submission form sent 3 weeks before. Questions organized by theme. COS has moderator notes."
+              }
+            ]
+          },
+          "station": {
+            "room": "Voltron",
+            "sessions": [
+              {
+                "time": "11:40 AM",
+                "duration": "10 min",
+                "title": "Break — Josh walks from Captain America to Voltron",
+                "owner": "",
+                "format": "",
+                "description": "",
+                "logistics": "",
+                "type": "break"
+              },
+              {
+                "time": "11:50 AM",
+                "duration": "35 min",
+                "title": "STATION EXEC AMA",
+                "owner": "Josh / Mary / Eric",
+                "format": "Open Q&A",
+                "description": "Same format as CF AMA but for STATION staff. Anonymous questions, candid answers. Staggered so Josh can attend both. Addresses STATION-specific concerns about identity, direction, and morale.",
+                "logistics": ""
+              }
+            ]
+          }
+        },
+        {
+          "time": "12:25 PM",
+          "duration": "60 min",
+          "title": "Lunch",
+          "owner": "",
+          "format": "Joint",
+          "description": "",
+          "logistics": "",
+          "type": "break"
+        },
+        {
+          "time": "1:25 PM",
+          "duration": "75 min",
+          "title": "CROSS-ENTITY INTERLOCK",
+          "owner": "Various",
+          "format": "Small-group working sessions",
+          "description": "Final joint working session of DREAMCON. CF + STATION together in small mixed groups with defined outcomes. Last chance to solve cross-entity challenges, align on shared initiatives, and set commitments before the half ends. Every group must leave with: problem statement, decision made, owner, deadline.",
+          "logistics": "",
+          "type": "workshop"
+        },
+        {
+          "time": "2:40 PM",
+          "duration": "15 min",
+          "title": "Startup Cup Finals + Winner Announcement",
+          "owner": "Kyle",
+          "format": "Competition + celebration",
+          "description": "Final Startup Cup scores tallied across all 4 days of games + the MVP build. Winning team announced. Prizes awarded. The crowd goes wild.",
+          "logistics": "Scoring spreadsheet finalized. Prizes ready.",
+          "type": "activity",
+          "fix": 8,
+          "fixNote": "Was '5 days'"
+        },
+        {
+          "time": "2:55 PM",
+          "duration": "25 min",
+          "title": "CORE VALUE AWARDS + DCS26 Video",
+          "owner": "Kyle",
+          "format": "Awards ceremony",
+          "description": "6 Core Value Award winners announced — one per value. Each receives a $100 Amazon gift card. Staff nominated peers via form sent 2 weeks before DREAMCON. Past winners not eligible. DCS26 highlight video plays — captures the best moments of the week.",
+          "logistics": "Gift cards purchased. Past winner list checked. Video edited and ready.",
+          "type": "keynote"
+        },
+        {
+          "time": "3:20 PM",
+          "duration": "15 min",
+          "title": "Letter to December",
+          "owner": "Kyle",
+          "format": "Personal reflection",
+          "description": "Each person writes a letter to themselves listing 3 things they need to accomplish over the next 6 months. Letters are sealed and collected. Opened together at DCW26. A personal accountability moment — what will you point to in December as your biggest impact?",
+          "logistics": "Provide paper/envelopes. Collect and store sealed letters.",
+          "type": "activity"
+        },
+        {
+          "time": "3:35 PM",
+          "duration": "15 min",
+          "title": "Alumni Spotlight",
+          "owner": "TBD",
+          "format": "Presentation",
+          "description": "Final alumni speaker shares their post-CF career journey. Ends the spotlight series on a high note before Josh closes.",
+          "logistics": "",
+          "type": "session",
+          "fix": 6,
+          "fixNote": "Lock name this week"
+        },
+        {
+          "time": "3:50 PM",
+          "duration": "15 min",
+          "title": "Closing Remarks — DREAMCON S26",
+          "owner": "Josh",
+          "format": "CEO closing",
+          "description": "Josh closes DREAMCON S26 — themes of the week, thank yous, shoutouts, looking ahead to H2 2026. Send everyone off with energy and clarity. The last thing people hear should make them proud to be on this team.",
+          "logistics": "",
+          "type": "keynote"
+        },
+        {
+          "time": "4:05 PM",
+          "duration": "",
+          "title": "End of Formal Programming",
+          "owner": "",
+          "format": "",
+          "description": "",
+          "logistics": "",
+          "type": "end"
+        },
+        {
+          "time": "Evening",
+          "duration": "",
+          "title": "Team Dinners / Team Activities",
+          "owner": "Dept Managers",
+          "format": "Social",
+          "description": "Managers take their teams out for dinner. Protected team bonding time outside the office. No agenda — just enjoy each other's company.",
+          "logistics": "Managers plan their own dinners.",
+          "type": "social"
+        }
+      ]
+    }
+  ],
+  "changeLog": [
+    { "fix": 1, "type": "must-fix", "description": "STATION North Star / Identity conflict: Mary texts Josh top 3 themes from STATION Identity by 10:30 so he has them before STATION North Star at 10:45. Logistics updated on both sessions (Day 2)." },
+    { "fix": 2, "type": "must-fix", "description": "Claude Code install moved from Day 2 (1:50 PM) to Day 1 (3:45 PM) so delegation.school works. Day 2 session relabeled as \"Troubleshooting & Advanced Setup\" (20 min)." },
+    { "fix": 3, "type": "timing", "description": "STATION Leadership Reports trimmed to fit 50-min block: 9 individual presentations + 1 shared slide for Gifts & Gear, CDUI, STATION DC (Day 2)." },
+    { "fix": 4, "type": "timing", "description": "New Faces: added \"30 sec each, hard cap. Kyle keeps time.\" (Day 1)" },
+    { "fix": 5, "type": "timing", "description": "MVP Build: seed each team with a Day 1 delegation.school graduate. Float troubleshooters. (Day 2)" },
+    { "fix": 6, "type": "cleanup", "description": "Alumni Spotlights: 3 of 4 still TBD (Days 2, 3, 4). Lock names this week." },
+    { "fix": 7, "type": "cleanup", "description": "Version control: archive other ROS copies in Drive. This doc is the source of truth." },
+    { "fix": 8, "type": "cleanup", "description": "Startup Cup Finals: \"5 days of games\" changed to \"4 days of games\". Game 2 was missing — added to Day 2 at 1:50 PM." },
+    { "fix": 9, "type": "cleanup", "description": "Walk & Talk Round 2 prompt softened: \"talk about your parents\" changed to \"share something about your life outside of work.\" Depth optional. (Day 2)" }
+  ]
+}

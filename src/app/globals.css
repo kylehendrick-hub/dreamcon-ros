@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-cf: #dc2626;
+  --color-station: #7c3aed;
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  background: #0f0f0f;
+  color: #e5e5e5;
+}
+
+@media print {
+  body {
+    background: white;
+    color: black;
+  }
+}
