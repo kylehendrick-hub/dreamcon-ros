@@ -249,14 +249,24 @@
           "type": "activity"
         },
         {
-          "type": "splitTrack",
           "time": "10:00 AM",
+          "duration": "10 min",
+          "title": "Startup Cup Game 2",
+          "owner": "Kyle / Aless",
+          "format": "Competition",
+          "description": "Quick 10-min team game to keep energy high.",
+          "logistics": "",
+          "type": "activity"
+        },
+        {
+          "type": "splitTrack",
+          "time": "10:10 AM",
           "label": "Josh does CF first, walks to STATION after break",
           "cf": {
             "room": "Captain America",
             "sessions": [
               {
-                "time": "10:00 AM",
+                "time": "10:10 AM",
                 "duration": "35 min",
                 "title": "CF NORTH STAR",
                 "owner": "Josh",
@@ -265,7 +275,7 @@
                 "logistics": "Josh deck finalized 1 week out. COS does prep session with Josh."
               },
               {
-                "time": "10:35 AM",
+                "time": "10:45 AM",
                 "duration": "10 min",
                 "title": "Break — Josh walks to Voltron",
                 "owner": "",
@@ -275,7 +285,7 @@
                 "type": "break"
               },
               {
-                "time": "10:45 AM",
+                "time": "10:55 AM",
                 "duration": "30 min",
                 "title": "What We Do & What We're Proud Of",
                 "owner": "CF Dept Leads",
@@ -284,7 +294,7 @@
                 "logistics": ""
               },
               {
-                "time": "11:15 AM",
+                "time": "11:25 AM",
                 "duration": "55 min",
                 "title": "CF LEADERSHIP REPORTS",
                 "owner": "CF Dept Leads",
@@ -298,7 +308,7 @@
             "room": "Voltron",
             "sessions": [
               {
-                "time": "10:00 AM",
+                "time": "10:10 AM",
                 "duration": "30 min",
                 "title": "STATION IDENTITY",
                 "owner": "Mary",
@@ -307,7 +317,7 @@
                 "logistics": "Mary texts/Slacks Josh the top 3 themes by 10:30 so he has them before STATION North Star."
               },
               {
-                "time": "10:30 AM",
+                "time": "10:40 AM",
                 "duration": "15 min",
                 "title": "Break — Josh walks over from Captain America",
                 "owner": "",
@@ -317,7 +327,7 @@
                 "type": "break"
               },
               {
-                "time": "10:45 AM",
+                "time": "10:55 AM",
                 "duration": "35 min",
                 "title": "STATION NORTH STAR",
                 "owner": "Josh",
@@ -326,7 +336,7 @@
                 "logistics": "Josh prep: Mary will text/Slack top themes from her 10:00 session. Review during the break."
               },
               {
-                "time": "11:20 AM",
+                "time": "11:30 AM",
                 "duration": "5 min",
                 "title": "Break",
                 "owner": "",
@@ -336,7 +346,7 @@
                 "type": "break"
               },
               {
-                "time": "11:25 AM",
+                "time": "11:35 AM",
                 "duration": "50 min",
                 "title": "STATION LEADERSHIP REPORTS",
                 "owner": "STATION Dept Leads",
@@ -348,7 +358,7 @@
           }
         },
         {
-          "time": "12:15 PM",
+          "time": "12:25 PM",
           "duration": "10 min",
           "title": "Safety Reminder",
           "owner": "Megan",
@@ -358,7 +368,7 @@
           "type": "session"
         },
         {
-          "time": "12:25 PM",
+          "time": "12:35 PM",
           "duration": "60 min",
           "title": "Lunch & Emails",
           "owner": "",
@@ -368,23 +378,13 @@
           "type": "social"
         },
         {
-          "time": "1:25 PM",
+          "time": "1:35 PM",
           "duration": "25 min",
           "title": "Walk & Talk Round 2 — Someone on another team you work with",
           "owner": "David R.",
           "format": "Structured 1-on-1 walk",
           "description": "Paired with someone on a different team. Prompt: 'Share something about your life outside of work — what you're into, where you're from, what matters to you.' Depth is optional — go as deep as feels natural. Builds real human connection across departments and entities.",
           "logistics": "Pairings ensure CF/STATION staff are mixed.",
-          "type": "activity"
-        },
-        {
-          "time": "1:50 PM",
-          "duration": "10 min",
-          "title": "Startup Cup Game 2",
-          "owner": "Kyle / Aless",
-          "format": "Competition",
-          "description": "Quick 10-min team game to keep energy high.",
-          "logistics": "",
           "type": "activity"
         },
         {
@@ -521,16 +521,16 @@
         },
         {
           "time": "11:55 AM",
-          "duration": "10 min",
+          "duration": "15 min",
           "title": "Startup Cup Game 3",
           "owner": "Kyle / Aless",
           "format": "Competition",
-          "description": "Quick 10-min team game to break up the day and keep energy high.",
+          "description": "15-min team game to break up the day and keep energy high.",
           "logistics": "",
           "type": "activity"
         },
         {
-          "time": "12:05 PM",
+          "time": "12:10 PM",
           "duration": "60 min",
           "title": "Lunch & Emails",
           "owner": "",
@@ -540,7 +540,7 @@
           "type": "social"
         },
         {
-          "time": "1:05 PM",
+          "time": "1:10 PM",
           "duration": "10 min",
           "title": "Safety Reminder",
           "owner": "Megan",
@@ -551,13 +551,13 @@
         },
         {
           "type": "splitTrack",
-          "time": "1:15 PM",
+          "time": "1:20 PM",
           "label": "",
           "cf": {
             "room": "Captain America",
             "sessions": [
               {
-                "time": "1:15 PM",
+                "time": "1:20 PM",
                 "duration": "65 min",
                 "title": "INTERLOCK Round 2",
                 "owner": "CF Leads",
@@ -571,7 +571,7 @@
             "room": "Voltron",
             "sessions": [
               {
-                "time": "1:15 PM",
+                "time": "1:20 PM",
                 "duration": "65 min",
                 "title": "INTERLOCK Round 2",
                 "owner": "STATION Leads",
@@ -583,17 +583,17 @@
           }
         },
         {
-          "time": "2:20 PM",
-          "duration": "10 min",
+          "time": "2:25 PM",
+          "duration": "15 min",
           "title": "Startup Cup Game 4",
           "owner": "Kyle / Aless",
           "format": "Competition",
-          "description": "Quick team game.",
+          "description": "15-min team game.",
           "logistics": "",
           "type": "activity"
         },
         {
-          "time": "2:30 PM",
+          "time": "2:40 PM",
           "duration": "90 min",
           "title": "DEPARTMENT WORKING SESSIONS",
           "owner": "Dept Managers",
@@ -603,7 +603,7 @@
           "type": "workshop"
         },
         {
-          "time": "4:00 PM",
+          "time": "4:10 PM",
           "duration": "20 min",
           "title": "FOUNDER STORY: Elysium Robotics",
           "owner": "Rodrigo Alvarez (CEO)",
@@ -613,7 +613,7 @@
           "type": "keynote"
         },
         {
-          "time": "4:20 PM",
+          "time": "4:30 PM",
           "duration": "10 min",
           "title": "Closing Remarks",
           "owner": "Bryan",
@@ -623,7 +623,7 @@
           "type": "session"
         },
         {
-          "time": "4:30 PM",
+          "time": "4:40 PM",
           "duration": "",
           "title": "End of Day 3",
           "owner": "",
