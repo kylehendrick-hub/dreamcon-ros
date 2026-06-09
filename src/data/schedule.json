@@ -665,24 +665,14 @@
           "type": "keynote"
         },
         {
-          "time": "9:25 AM",
-          "duration": "10 min",
-          "title": "Startup Cup Game 5",
-          "owner": "Kyle / Aless",
-          "format": "Competition",
-          "description": "Final regular-season game before the afternoon finals.",
-          "logistics": "",
-          "type": "activity"
-        },
-        {
           "type": "splitTrack",
-          "time": "9:35 AM",
+          "time": "9:25 AM",
           "label": "By Department",
           "cf": {
             "room": "By Department",
             "sessions": [
               {
-                "time": "9:35 AM",
+                "time": "9:25 AM",
                 "duration": "90 min",
                 "title": "HECs + Fix It",
                 "owner": "Dept Managers",
@@ -696,7 +686,7 @@
             "room": "By Department",
             "sessions": [
               {
-                "time": "9:35 AM",
+                "time": "9:25 AM",
                 "duration": "90 min",
                 "title": "HECs + Fix It",
                 "owner": "Dept Managers",
@@ -709,13 +699,13 @@
         },
         {
           "type": "splitTrack",
-          "time": "11:05 AM",
+          "time": "10:55 AM",
           "label": "Staggered Exec AMA — Josh attends both",
           "cf": {
             "room": "Captain America",
             "sessions": [
               {
-                "time": "11:05 AM",
+                "time": "10:55 AM",
                 "duration": "35 min",
                 "title": "CF EXEC AMA",
                 "owner": "Josh / Bryan / Kyle",
@@ -729,7 +719,7 @@
             "room": "Voltron",
             "sessions": [
               {
-                "time": "11:05 AM",
+                "time": "10:55 AM",
                 "duration": "35 min",
                 "title": "Free Time — Emails & Recharge",
                 "owner": "",
@@ -739,7 +729,7 @@
                 "type": "break"
               },
               {
-                "time": "11:40 AM",
+                "time": "11:30 AM",
                 "duration": "10 min",
                 "title": "Break — Josh walks from Captain America to Voltron",
                 "owner": "",
@@ -749,7 +739,7 @@
                 "type": "break"
               },
               {
-                "time": "11:50 AM",
+                "time": "11:40 AM",
                 "duration": "35 min",
                 "title": "STATION EXEC AMA",
                 "owner": "Josh / Mary / Eric",
@@ -761,7 +751,7 @@
           }
         },
         {
-          "time": "12:25 PM",
+          "time": "12:15 PM",
           "duration": "60 min",
           "title": "Lunch",
           "owner": "",
@@ -771,7 +761,7 @@
           "type": "social"
         },
         {
-          "time": "1:25 PM",
+          "time": "1:15 PM",
           "duration": "75 min",
           "title": "CROSS-ENTITY INTERLOCK",
           "owner": "Various",
@@ -781,27 +771,27 @@
           "type": "workshop"
         },
         {
-          "time": "2:40 PM",
-          "duration": "15 min",
-          "title": "Startup Cup Finals + Winner Announcement",
-          "owner": "Kyle",
-          "format": "Competition + celebration",
-          "description": "Final Startup Cup scores tallied across all 4 days of games + the MVP build. Winning team announced. Prizes awarded. The crowd goes wild.",
-          "logistics": "Scoring spreadsheet finalized. Prizes ready.",
+          "time": "2:30 PM",
+          "duration": "60 min",
+          "title": "Startup Cup Talent Show",
+          "owner": "Kyle / Aless",
+          "format": "Competition + performance",
+          "description": "Each Startup Cup team performs in a talent show. Creative, fun, and a chance for teams to show off beyond the competition games and MVP build.",
+          "logistics": "",
           "type": "activity"
         },
         {
-          "time": "2:55 PM",
-          "duration": "25 min",
-          "title": "CORE VALUE AWARDS + DCS26 Video",
+          "time": "3:30 PM",
+          "duration": "30 min",
+          "title": "CORE VALUE AWARDS + Startup Cup Winner + DCS26 Video",
           "owner": "Kyle",
           "format": "Awards ceremony",
-          "description": "6 Core Value Award winners announced — one per value. Each receives a $100 Amazon gift card. Staff nominated peers via form sent 2 weeks before DREAMCON. Past winners not eligible. DCS26 highlight video plays — captures the best moments of the week.",
-          "logistics": "Gift cards purchased. Past winner list checked. Video edited and ready.",
+          "description": "6 Core Value Award winners announced — one per value. Each receives a $100 Amazon gift card. Staff nominated peers via form sent 2 weeks before DREAMCON. Past winners not eligible. Startup Cup winner announced — final scores tallied across all games + MVP build. Prizes awarded. DCS26 highlight video plays — captures the best moments of the week.",
+          "logistics": "Gift cards purchased. Past winner list checked. Video edited and ready. Startup Cup scoring spreadsheet finalized. Prizes ready.",
           "type": "keynote"
         },
         {
-          "time": "3:20 PM",
+          "time": "4:00 PM",
           "duration": "15 min",
           "title": "Letter to December",
           "owner": "Kyle",
@@ -811,7 +801,7 @@
           "type": "activity"
         },
         {
-          "time": "3:35 PM",
+          "time": "4:15 PM",
           "duration": "15 min",
           "title": "Alumni Spotlight",
           "owner": "TBD",
@@ -821,7 +811,7 @@
           "type": "session"
         },
         {
-          "time": "3:50 PM",
+          "time": "4:30 PM",
           "duration": "15 min",
           "title": "Closing Remarks — DREAMCON S26",
           "owner": "Josh",
@@ -831,7 +821,7 @@
           "type": "keynote"
         },
         {
-          "time": "4:05 PM",
+          "time": "4:45 PM",
           "duration": "",
           "title": "End of Formal Programming",
           "owner": "",
