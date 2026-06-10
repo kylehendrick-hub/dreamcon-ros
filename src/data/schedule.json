@@ -364,7 +364,7 @@
         },
         {
           "time": "3:10 PM",
-          "duration": "30 min",
+          "duration": "45 min",
           "title": "delegation.school (AI Workflow Training)",
           "owner": "Josh",
           "format": "Live workshop",
@@ -373,7 +373,7 @@
           "type": "workshop"
         },
         {
-          "time": "3:40 PM",
+          "time": "3:55 PM",
           "duration": "15 min",
           "title": "Alumni Spotlight #2",
           "owner": "TBD",
@@ -383,7 +383,7 @@
           "type": "session"
         },
         {
-          "time": "3:55 PM",
+          "time": "4:10 PM",
           "duration": "10 min",
           "title": "Closing Remarks",
           "owner": "Eric Stober",
@@ -393,7 +393,7 @@
           "type": "session"
         },
         {
-          "time": "4:05 PM",
+          "time": "4:20 PM",
           "duration": "",
           "title": "End of Day 2",
           "owner": "",
