@@ -129,7 +129,7 @@
         {
           "time": "3:30 PM",
           "duration": "60 min",
-          "title": "Game 2 — PAINT A ROCKET SHIP",
+          "title": "Game 1 — PAINT A ROCKET SHIP",
           "owner": "Kyle / Aless",
           "format": "Team competition",
           "description": "Each Startup Cup team uses AI to paint a rocket ship. Josh judges. If needed, do 2 paintings per team — Rocket and Robot.",
@@ -192,7 +192,7 @@
       "id": "day2",
       "dayNumber": 2,
       "date": "Tuesday, June 23",
-      "title": "North Stars / Leadership Reports / AI Con",
+      "title": "North Stars / Interlocks / AI Con",
       "theme": "",
       "attire": "",
       "trackMode": "Split tracks mid-morning",
@@ -210,16 +210,6 @@
         },
         {
           "time": "9:05 AM",
-          "duration": "20 min",
-          "title": "FOUNDER STORY: Bravo Ordnance",
-          "owner": "Devan / Kevin",
-          "format": "Presentation + Q&A",
-          "description": "Portfolio company founder shares their journey building in the defense/munitions space. 15 min presentation + 5 min Q&A.",
-          "logistics": "Confirm presenter + deck",
-          "type": "keynote"
-        },
-        {
-          "time": "9:25 AM",
           "duration": "45 min",
           "title": "Walk & Talk Round 1 — Someone on your team you work closely with",
           "owner": "David R.",
@@ -229,7 +219,7 @@
           "type": "activity"
         },
         {
-          "time": "10:10 AM",
+          "time": "9:50 AM",
           "duration": "15 min",
           "title": "AI Celebrity Face Game",
           "owner": "Kyle / Aless",
@@ -240,13 +230,13 @@
         },
         {
           "type": "splitTrack",
-          "time": "10:25 AM",
+          "time": "10:05 AM",
           "label": "Josh does CF first, walks to STATION after break",
           "cf": {
             "room": "Captain America",
             "sessions": [
               {
-                "time": "10:25 AM",
+                "time": "10:05 AM",
                 "duration": "35 min",
                 "title": "CF NORTH STAR",
                 "owner": "Josh",
@@ -255,7 +245,7 @@
                 "logistics": "Josh deck finalized 1 week out. COS does prep session with Josh."
               },
               {
-                "time": "11:00 AM",
+                "time": "10:40 AM",
                 "duration": "10 min",
                 "title": "Break — Josh walks to Voltron",
                 "owner": "",
@@ -265,9 +255,81 @@
                 "type": "break"
               },
               {
-                "time": "11:10 AM",
+                "time": "10:50 AM",
+                "duration": "30 min",
+                "title": "What We Do & What We're Proud Of",
+                "owner": "CF Dept Leads",
+                "format": "Interactive / Bryan Chambers",
+                "description": "CF department leads share their team's wins and vision. Framework: one simple thing we can do now, one dream thing we're working toward, one immediate thing we need help with.",
+                "logistics": ""
+              }
+            ]
+          },
+          "station": {
+            "room": "Voltron",
+            "sessions": [
+              {
+                "time": "10:05 AM",
+                "duration": "30 min",
+                "title": "STATION IDENTITY",
+                "owner": "Mary",
+                "format": "Facilitated discussion",
+                "description": "Mary facilitates a dedicated session on STATION's brand and identity. What makes STATION different from CF? How do we differentiate? What are we most proud of? Directly addresses STATION team feedback that they need their own identity and morale building. This is STATION's moment.",
+                "logistics": "Mary texts/Slacks Josh the top 3 themes by 10:30 so he has them before STATION North Star."
+              },
+              {
+                "time": "10:35 AM",
+                "duration": "15 min",
+                "title": "Break — Josh walks over from Captain America",
+                "owner": "",
+                "format": "",
+                "description": "",
+                "logistics": "",
+                "type": "break"
+              },
+              {
+                "time": "10:50 AM",
+                "duration": "35 min",
+                "title": "STATION NORTH STAR",
+                "owner": "Josh",
+                "format": "CEO keynote",
+                "description": "Josh's strategic keynote for STATION — acknowledging STATION's unique value, where operations/coworking is headed, what makes STATION special. Morale and pride building. Josh should reference themes from Mary's STATION Identity session.",
+                "logistics": "Josh prep: Mary will text/Slack top themes from her session. Review during the break."
+              }
+            ]
+          }
+        },
+        {
+          "time": "11:25 AM",
+          "duration": "10 min",
+          "title": "Safety Reminder",
+          "owner": "Megan",
+          "format": "Joint",
+          "description": "",
+          "logistics": "",
+          "type": "session"
+        },
+        {
+          "time": "11:35 AM",
+          "duration": "60 min",
+          "title": "Lunch & Emails",
+          "owner": "",
+          "format": "Joint",
+          "description": "Protected midday break. Staff catch up on email and recharge.",
+          "logistics": "",
+          "type": "social"
+        },
+        {
+          "type": "splitTrack",
+          "time": "12:35 PM",
+          "label": "Entity-specific interlocks",
+          "cf": {
+            "room": "Captain America",
+            "sessions": [
+              {
+                "time": "12:35 PM",
                 "duration": "90 min",
-                "title": "CF ENTITY INTERLOCK",
+                "title": "CF Interlock",
                 "owner": "CF Dept Leads",
                 "format": "Small-group working sessions",
                 "description": "CF-only interlocks. Smaller groups with defined outcomes — facilitator, notetaker, and deliverables with owners and deadlines. This is where real cross-department problems within CF get solved.",
@@ -279,37 +341,9 @@
             "room": "Voltron",
             "sessions": [
               {
-                "time": "10:25 AM",
-                "duration": "30 min",
-                "title": "STATION IDENTITY",
-                "owner": "Mary",
-                "format": "Facilitated discussion",
-                "description": "Mary facilitates a dedicated session on STATION's brand and identity. What makes STATION different from CF? How do we differentiate? What are we most proud of? Directly addresses STATION team feedback that they need their own identity and morale building. This is STATION's moment.",
-                "logistics": "Mary texts/Slacks Josh the top 3 themes by 10:30 so he has them before STATION North Star."
-              },
-              {
-                "time": "10:55 AM",
-                "duration": "15 min",
-                "title": "Break — Josh walks over from Captain America",
-                "owner": "",
-                "format": "",
-                "description": "",
-                "logistics": "",
-                "type": "break"
-              },
-              {
-                "time": "11:10 AM",
-                "duration": "35 min",
-                "title": "STATION NORTH STAR",
-                "owner": "Josh",
-                "format": "CEO keynote",
-                "description": "Josh's strategic keynote for STATION — acknowledging STATION's unique value, where operations/coworking is headed, what makes STATION special. Morale and pride building. Josh should reference themes from Mary's STATION Identity session.",
-                "logistics": "Josh prep: Mary will text/Slack top themes from her 10:00 session. Review during the break."
-              },
-              {
-                "time": "11:45 AM",
+                "time": "12:35 PM",
                 "duration": "90 min",
-                "title": "STATION ENTITY INTERLOCK",
+                "title": "STATION Interlock",
                 "owner": "STATION Dept Leads",
                 "format": "Small-group working sessions",
                 "description": "STATION-only interlocks. Smaller groups with defined outcomes — facilitator, notetaker, and deliverables with owners and deadlines. Focus on STATION-specific operational challenges.",
@@ -319,27 +353,7 @@
           }
         },
         {
-          "time": "1:15 PM",
-          "duration": "10 min",
-          "title": "Safety Reminder",
-          "owner": "Megan",
-          "format": "Joint",
-          "description": "",
-          "logistics": "",
-          "type": "session"
-        },
-        {
-          "time": "1:25 PM",
-          "duration": "60 min",
-          "title": "Lunch & Emails",
-          "owner": "",
-          "format": "Joint",
-          "description": "Protected midday break. Staff catch up on email and recharge.",
-          "logistics": "",
-          "type": "social"
-        },
-        {
-          "time": "2:25 PM",
+          "time": "2:05 PM",
           "duration": "45 min",
           "title": "Walk & Talk Round 2 — Someone on another team you work with",
           "owner": "David R.",
@@ -349,9 +363,9 @@
           "type": "activity"
         },
         {
-          "time": "3:15 PM",
+          "time": "2:50 PM",
           "duration": "60 min",
-          "title": "STARTUP CUP — Team Assignments, Download Claude Code, Game 1 BUILD AN MVP",
+          "title": "STARTUP CUP — Team Assignments, Download Claude Code, Game 2 BUILD AN MVP",
           "owner": "Kyle / Fred / Josh / Aless",
           "format": "Competition + workshop",
           "description": "Multi-day team competition kicks off. Kyle explains the format, ~10 teams are assigned (balanced across CF/STATION, departments, tenure, DISC types), teams pick names. Everyone downloads and installs Claude Code. Game 1: BUILD AN MVP — Kyle chooses the prompt, teams build a working app using Claude Code. Running leaderboard tracked all week.",
@@ -359,7 +373,7 @@
           "type": "activity"
         },
         {
-          "time": "4:15 PM",
+          "time": "3:50 PM",
           "duration": "15 min",
           "title": "Alumni Spotlight #2",
           "owner": "TBD",
@@ -369,7 +383,7 @@
           "type": "session"
         },
         {
-          "time": "4:30 PM",
+          "time": "4:05 PM",
           "duration": "10 min",
           "title": "Closing Remarks",
           "owner": "Eric Stober",
@@ -379,7 +393,7 @@
           "type": "session"
         },
         {
-          "time": "4:40 PM",
+          "time": "4:15 PM",
           "duration": "",
           "title": "End of Day 2",
           "owner": "",
@@ -443,7 +457,7 @@
         {
           "time": "10:45 AM",
           "duration": "75 min",
-          "title": "CROSS-ENTITY INTERLOCK",
+          "title": "Cross Entity Interlock",
           "owner": "Various",
           "format": "Small-group working sessions",
           "description": "CF and STATION staff work together in small mixed groups on shared challenges. Every group has a facilitator, notetaker, and must produce a defined outcome with owners and deadlines. Topics: collaboration on cornerstone events, shared workflows, automation opportunities. This is the #1 priority from CF feedback — building real working rapport between the two entities.",
@@ -453,7 +467,7 @@
         {
           "time": "12:00 PM",
           "duration": "15 min",
-          "title": "Game 4 — Spelling Bee",
+          "title": "Game 3 — Spelling Bee",
           "owner": "Kyle / Aless",
           "format": "Competition",
           "description": "15-min team spelling bee to break up the day and keep energy high.",
@@ -490,7 +504,7 @@
               {
                 "time": "1:25 PM",
                 "duration": "60 min",
-                "title": "INTERLOCK Round 2",
+                "title": "CF Interlock",
                 "owner": "CF Leads",
                 "format": "Small-group working sessions",
                 "description": "CF-only interlocks. Smaller groups than past DREAMCONs (per feedback that groups were too big). Every interlock has a facilitator, notetaker, and must produce a defined outcome with owners and deadlines. This is where real cross-department problems get solved.",
@@ -504,7 +518,7 @@
               {
                 "time": "1:25 PM",
                 "duration": "60 min",
-                "title": "INTERLOCK Round 2",
+                "title": "STATION Interlock",
                 "owner": "STATION Leads",
                 "format": "Small-group working sessions",
                 "description": "STATION-only interlocks. Same format — smaller groups, defined outcomes required. Focus on STATION-specific operational challenges.",
@@ -516,7 +530,7 @@
         {
           "time": "2:25 PM",
           "duration": "15 min",
-          "title": "Game 5 — STATION Trivia",
+          "title": "Game 4 — STATION Trivia",
           "owner": "Kyle / Aless",
           "format": "Competition",
           "description": "15-min STATION trivia game.",
@@ -704,7 +718,7 @@
         {
           "time": "1:15 PM",
           "duration": "75 min",
-          "title": "CROSS-ENTITY INTERLOCK",
+          "title": "Cross Entity Interlock",
           "owner": "Various",
           "format": "Small-group working sessions",
           "description": "Final joint working session of DREAMCON. CF + STATION together in small mixed groups with defined outcomes. Last chance to solve cross-entity challenges, align on shared initiatives, and set commitments before the half ends. Every group must leave with: problem statement, decision made, owner, deadline.",
@@ -744,10 +758,10 @@
         {
           "time": "4:15 PM",
           "duration": "15 min",
-          "title": "Alumni Spotlight",
-          "owner": "TBD",
+          "title": "Alumni Spotlight — Jonathan Marcel",
+          "owner": "Jonathan Marcel",
           "format": "Presentation",
-          "description": "Final alumni speaker shares their post-CF career journey. Ends the spotlight series on a high note before Josh closes.",
+          "description": "Jonathan Marcel shares his post-CF career journey. Ends the spotlight series on a high note before Josh closes.",
           "logistics": "",
           "type": "session"
         },
