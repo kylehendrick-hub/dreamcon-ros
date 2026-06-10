@@ -48,7 +48,7 @@
         },
         {
           "time": "1:05 PM",
-          "duration": "20 min",
+          "duration": "50 min",
           "title": "Mingle continues",
           "owner": "",
           "format": "",
@@ -57,7 +57,7 @@
           "type": "buffer"
         },
         {
-          "time": "1:25 PM",
+          "time": "1:55 PM",
           "duration": "5 min",
           "title": "Welcome & Run of Show Overview",
           "owner": "Kyle",
@@ -67,7 +67,7 @@
           "type": "keynote"
         },
         {
-          "time": "1:30 PM",
+          "time": "2:00 PM",
           "duration": "20 min",
           "title": "FOUNDER STORY: Babson Diagnostics",
           "owner": "Web Golinkin (CEO)",
@@ -77,7 +77,7 @@
           "type": "keynote"
         },
         {
-          "time": "1:50 PM",
+          "time": "2:20 PM",
           "duration": "10 min",
           "title": "Break",
           "owner": "",
@@ -87,7 +87,7 @@
           "type": "break"
         },
         {
-          "time": "2:00 PM",
+          "time": "2:30 PM",
           "duration": "10 min",
           "title": "Safety Reminders",
           "owner": "Megan",
@@ -97,7 +97,7 @@
           "type": "session"
         },
         {
-          "time": "2:10 PM",
+          "time": "2:40 PM",
           "duration": "30 min",
           "title": "CORE VALUES",
           "owner": "Josh + CV Winners",
@@ -107,8 +107,8 @@
           "type": "keynote"
         },
         {
-          "time": "2:40 PM",
-          "duration": "20 min",
+          "time": "3:10 PM",
+          "duration": "30 min",
           "title": "New Faces",
           "owner": "Kyle",
           "format": "Introductions — 30 sec each, hard cap",
@@ -117,27 +117,17 @@
           "type": "session"
         },
         {
-          "time": "3:00 PM",
-          "duration": "30 min",
-          "title": "delegation.school (AI Workflow Training)",
-          "owner": "Josh",
-          "format": "Live workshop",
-          "description": "Josh walks everyone through his AI workflow training course (delegation.school). Shows real examples of what's possible with AI agents and gathers feedback.",
-          "logistics": "",
-          "type": "workshop"
-        },
-        {
-          "time": "3:30 PM",
+          "time": "3:40 PM",
           "duration": "60 min",
-          "title": "Game 1 — PAINT A ROCKET SHIP",
+          "title": "Game 1 — Team Assignments + PAINT A ROCKET SHIP",
           "owner": "Kyle / Aless",
           "format": "Team competition",
-          "description": "Each Startup Cup team uses AI to paint a rocket ship. Josh judges. If needed, do 2 paintings per team — Rocket and Robot.",
+          "description": "Kyle explains the Startup Cup format, ~10 teams are assigned (balanced across CF/STATION, departments, tenure, DISC types), teams pick names. Then each team uses AI to paint a rocket ship. Josh judges. If needed, do 2 paintings per team — Rocket and Robot.",
           "logistics": "",
           "type": "activity"
         },
         {
-          "time": "4:30 PM",
+          "time": "4:40 PM",
           "duration": "15 min",
           "title": "Alumni Spotlight #1",
           "owner": "Jake O'Shea",
@@ -147,7 +137,7 @@
           "type": "session"
         },
         {
-          "time": "4:45 PM",
+          "time": "4:55 PM",
           "duration": "5 min",
           "title": "Closing Remarks",
           "owner": "Mary",
@@ -157,7 +147,7 @@
           "type": "session"
         },
         {
-          "time": "4:50 PM",
+          "time": "5:00 PM",
           "duration": "30 min",
           "title": "Travel to Daydreamer (E 6th St)",
           "owner": "",
@@ -167,7 +157,7 @@
           "type": "logistics"
         },
         {
-          "time": "5:20 PM",
+          "time": "5:30 PM",
           "duration": "3 hours",
           "title": "DREAMTEAM PARTY + Awards & Anniversaries",
           "owner": "Allison",
@@ -177,7 +167,7 @@
           "type": "social"
         },
         {
-          "time": "8:20 PM",
+          "time": "8:30 PM",
           "duration": "",
           "title": "End of Day 1",
           "owner": "",
@@ -374,16 +364,16 @@
         },
         {
           "time": "3:10 PM",
-          "duration": "60 min",
-          "title": "STARTUP CUP — Team Assignments, Download Claude Code, Game 2 BUILD AN MVP",
-          "owner": "Kyle / Fred / Josh / Aless",
-          "format": "Competition + workshop",
-          "description": "Multi-day team competition kicks off. Kyle explains the format, ~10 teams are assigned (balanced across CF/STATION, departments, tenure, DISC types), teams pick names. Everyone downloads and installs Claude Code. Game 1: BUILD AN MVP — Kyle chooses the prompt, teams build a working app using Claude Code. Running leaderboard tracked all week.",
-          "logistics": "Teams pre-built. Scoring spreadsheet ready. Prizes purchased. Confirm wifi capacity.",
-          "type": "activity"
+          "duration": "30 min",
+          "title": "delegation.school (AI Workflow Training)",
+          "owner": "Josh",
+          "format": "Live workshop",
+          "description": "Josh walks everyone through his AI workflow training course (delegation.school). Shows real examples of what's possible with AI agents and gathers feedback.",
+          "logistics": "",
+          "type": "workshop"
         },
         {
-          "time": "4:10 PM",
+          "time": "3:40 PM",
           "duration": "15 min",
           "title": "Alumni Spotlight #2",
           "owner": "TBD",
@@ -393,17 +383,17 @@
           "type": "session"
         },
         {
-          "time": "4:25 PM",
+          "time": "3:55 PM",
           "duration": "10 min",
           "title": "Closing Remarks",
           "owner": "Eric Stober",
           "format": "",
-          "description": "Eric wraps Day 2 — recap of the AI builds, preview of Day 3.",
+          "description": "Eric wraps Day 2 — preview of Day 3.",
           "logistics": "",
           "type": "session"
         },
         {
-          "time": "4:35 PM",
+          "time": "4:05 PM",
           "duration": "",
           "title": "End of Day 2",
           "owner": "",
@@ -430,8 +420,8 @@
           "title": "Welcome & Breakfast",
           "owner": "Kyle",
           "format": "Joint",
-          "description": "Kyle opens Day 3 and announces the Startup Cup MVP winner from Day 2's app build. Big points awarded.",
-          "logistics": "Have winner ready + demo URL on screen",
+          "description": "Kyle opens Day 3 with announcements and Startup Cup standings.",
+          "logistics": "",
           "type": "session"
         },
         {
