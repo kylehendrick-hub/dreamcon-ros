@@ -210,6 +210,16 @@
         },
         {
           "time": "9:05 AM",
+          "duration": "20 min",
+          "title": "FOUNDER STORY: TBD",
+          "owner": "TBD",
+          "format": "Presentation + Q&A",
+          "description": "Portfolio company founder shares their journey. 15 min presentation + 5 min Q&A.",
+          "logistics": "Confirm presenter + deck",
+          "type": "keynote"
+        },
+        {
+          "time": "9:25 AM",
           "duration": "45 min",
           "title": "Walk & Talk Round 1 — Someone on your team you work closely with",
           "owner": "David R.",
@@ -219,7 +229,7 @@
           "type": "activity"
         },
         {
-          "time": "9:50 AM",
+          "time": "10:10 AM",
           "duration": "15 min",
           "title": "AI Celebrity Face Game",
           "owner": "Kyle / Aless",
@@ -230,13 +240,13 @@
         },
         {
           "type": "splitTrack",
-          "time": "10:05 AM",
+          "time": "10:25 AM",
           "label": "Josh does CF first, walks to STATION after break",
           "cf": {
             "room": "Captain America",
             "sessions": [
               {
-                "time": "10:05 AM",
+                "time": "10:25 AM",
                 "duration": "35 min",
                 "title": "CF NORTH STAR",
                 "owner": "Josh",
@@ -245,7 +255,7 @@
                 "logistics": "Josh deck finalized 1 week out. COS does prep session with Josh."
               },
               {
-                "time": "10:40 AM",
+                "time": "11:00 AM",
                 "duration": "10 min",
                 "title": "Break — Josh walks to Voltron",
                 "owner": "",
@@ -255,7 +265,7 @@
                 "type": "break"
               },
               {
-                "time": "10:50 AM",
+                "time": "11:10 AM",
                 "duration": "30 min",
                 "title": "What We Do & What We're Proud Of",
                 "owner": "CF Dept Leads",
@@ -269,7 +279,7 @@
             "room": "Voltron",
             "sessions": [
               {
-                "time": "10:05 AM",
+                "time": "10:25 AM",
                 "duration": "30 min",
                 "title": "STATION IDENTITY",
                 "owner": "Mary",
@@ -278,7 +288,7 @@
                 "logistics": "Mary texts/Slacks Josh the top 3 themes by 10:30 so he has them before STATION North Star."
               },
               {
-                "time": "10:35 AM",
+                "time": "10:55 AM",
                 "duration": "15 min",
                 "title": "Break — Josh walks over from Captain America",
                 "owner": "",
@@ -288,7 +298,7 @@
                 "type": "break"
               },
               {
-                "time": "10:50 AM",
+                "time": "11:10 AM",
                 "duration": "35 min",
                 "title": "STATION NORTH STAR",
                 "owner": "Josh",
@@ -300,7 +310,7 @@
           }
         },
         {
-          "time": "11:25 AM",
+          "time": "11:45 AM",
           "duration": "10 min",
           "title": "Safety Reminder",
           "owner": "Megan",
@@ -310,7 +320,7 @@
           "type": "session"
         },
         {
-          "time": "11:35 AM",
+          "time": "11:55 AM",
           "duration": "60 min",
           "title": "Lunch & Emails",
           "owner": "",
@@ -321,13 +331,13 @@
         },
         {
           "type": "splitTrack",
-          "time": "12:35 PM",
+          "time": "12:55 PM",
           "label": "Entity-specific interlocks",
           "cf": {
             "room": "Captain America",
             "sessions": [
               {
-                "time": "12:35 PM",
+                "time": "12:55 PM",
                 "duration": "90 min",
                 "title": "CF Interlock",
                 "owner": "CF Dept Leads",
@@ -341,7 +351,7 @@
             "room": "Voltron",
             "sessions": [
               {
-                "time": "12:35 PM",
+                "time": "12:55 PM",
                 "duration": "90 min",
                 "title": "STATION Interlock",
                 "owner": "STATION Dept Leads",
@@ -353,7 +363,7 @@
           }
         },
         {
-          "time": "2:05 PM",
+          "time": "2:25 PM",
           "duration": "45 min",
           "title": "Walk & Talk Round 2 — Someone on another team you work with",
           "owner": "David R.",
@@ -363,7 +373,7 @@
           "type": "activity"
         },
         {
-          "time": "2:50 PM",
+          "time": "3:10 PM",
           "duration": "60 min",
           "title": "STARTUP CUP — Team Assignments, Download Claude Code, Game 2 BUILD AN MVP",
           "owner": "Kyle / Fred / Josh / Aless",
@@ -373,7 +383,7 @@
           "type": "activity"
         },
         {
-          "time": "3:50 PM",
+          "time": "4:10 PM",
           "duration": "15 min",
           "title": "Alumni Spotlight #2",
           "owner": "TBD",
@@ -383,7 +393,7 @@
           "type": "session"
         },
         {
-          "time": "4:05 PM",
+          "time": "4:25 PM",
           "duration": "10 min",
           "title": "Closing Remarks",
           "owner": "Eric Stober",
@@ -393,7 +403,7 @@
           "type": "session"
         },
         {
-          "time": "4:15 PM",
+          "time": "4:35 PM",
           "duration": "",
           "title": "End of Day 2",
           "owner": "",
