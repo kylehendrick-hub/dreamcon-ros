@@ -118,46 +118,16 @@
         },
         {
           "time": "3:00 PM",
-          "duration": "35 min",
-          "title": "STARTUP CUP — Intro, Team Assignments + Game 1",
-          "owner": "Kyle / Aless",
-          "format": "Competition",
-          "description": "Multi-day team competition kicks off. Kyle explains the format, ~10 teams are assigned (balanced across CF/STATION, departments, tenure, DISC types), teams pick names. Game 1 starts immediately. Running leaderboard tracked all week.",
-          "logistics": "Teams pre-built. Scoring spreadsheet ready. Prizes purchased.",
+          "duration": "60 min",
+          "title": "STARTUP CUP — Team Assignments, Download Claude Code, Game 1 BUILD AN MVP",
+          "owner": "Kyle / Fred / Josh / Aless",
+          "format": "Competition + workshop",
+          "description": "Multi-day team competition kicks off. Kyle explains the format, ~10 teams are assigned (balanced across CF/STATION, departments, tenure, DISC types), teams pick names. Everyone downloads and installs Claude Code. Game 1: BUILD AN MVP — Kyle chooses the prompt, teams build a working app using Claude Code. Running leaderboard tracked all week.",
+          "logistics": "Teams pre-built. Scoring spreadsheet ready. Prizes purchased. Confirm wifi capacity.",
           "type": "activity"
         },
         {
-          "time": "3:35 PM",
-          "duration": "10 min",
-          "title": "Break",
-          "owner": "",
-          "format": "",
-          "description": "",
-          "logistics": "",
-          "type": "break"
-        },
-        {
-          "time": "3:45 PM",
-          "duration": "25 min",
-          "title": "Install Claude Code — Live Tutorial",
-          "owner": "Fred / Josh / Kyle",
-          "format": "Hands-on workshop",
-          "description": "Every staff member installs Claude Code on their machine — terminal for Mac, PowerShell for Windows. Hands-on, everyone follows along step by step. By the end, every Dreamteamer has a working AI coding agent on their laptop.",
-          "logistics": "Confirm wifi capacity. Have troubleshooting helpers ready.",
-          "type": "workshop"
-        },
-        {
-          "time": "4:10 PM",
-          "duration": "20 min",
-          "title": "delegation.school (AI Workflow Training)",
-          "owner": "Josh",
-          "format": "Live workshop",
-          "description": "Josh walks everyone through his AI workflow training course (delegation.school). Staff already have Claude Code installed from the previous session. This session pulls out certain examples people have done and shows others what is possible. Also used to gather feedback.",
-          "logistics": "Confirm wifi can handle all staff on Claude Code simultaneously.",
-          "type": "workshop"
-        },
-        {
-          "time": "4:30 PM",
+          "time": "4:00 PM",
           "duration": "15 min",
           "title": "Alumni Spotlight #1",
           "owner": "Jake O'Shea",
@@ -167,7 +137,7 @@
           "type": "session"
         },
         {
-          "time": "4:45 PM",
+          "time": "4:15 PM",
           "duration": "5 min",
           "title": "Closing Remarks",
           "owner": "Mary",
@@ -177,8 +147,8 @@
           "type": "session"
         },
         {
-          "time": "4:50 PM",
-          "duration": "30 min",
+          "time": "4:20 PM",
+          "duration": "60 min",
           "title": "Travel to Daydreamer (E 6th St)",
           "owner": "",
           "format": "",
@@ -250,23 +220,23 @@
         },
         {
           "time": "10:00 AM",
-          "duration": "10 min",
-          "title": "Startup Cup Game 2",
+          "duration": "15 min",
+          "title": "AI Celebrity Face Game",
           "owner": "Kyle / Aless",
           "format": "Competition",
-          "description": "Quick 10-min team game to keep energy high.",
+          "description": "Teams compete in an AI-powered celebrity face matching game.",
           "logistics": "",
           "type": "activity"
         },
         {
           "type": "splitTrack",
-          "time": "10:10 AM",
+          "time": "10:15 AM",
           "label": "Josh does CF first, walks to STATION after break",
           "cf": {
             "room": "Captain America",
             "sessions": [
               {
-                "time": "10:10 AM",
+                "time": "10:15 AM",
                 "duration": "35 min",
                 "title": "CF NORTH STAR",
                 "owner": "Josh",
@@ -275,7 +245,7 @@
                 "logistics": "Josh deck finalized 1 week out. COS does prep session with Josh."
               },
               {
-                "time": "10:45 AM",
+                "time": "10:50 AM",
                 "duration": "10 min",
                 "title": "Break — Josh walks to Voltron",
                 "owner": "",
@@ -285,7 +255,7 @@
                 "type": "break"
               },
               {
-                "time": "10:55 AM",
+                "time": "11:00 AM",
                 "duration": "30 min",
                 "title": "What We Do & What We're Proud Of",
                 "owner": "CF Dept Leads",
@@ -294,7 +264,7 @@
                 "logistics": ""
               },
               {
-                "time": "11:25 AM",
+                "time": "11:30 AM",
                 "duration": "55 min",
                 "title": "CF LEADERSHIP REPORTS",
                 "owner": "CF Dept Leads",
@@ -308,7 +278,7 @@
             "room": "Voltron",
             "sessions": [
               {
-                "time": "10:10 AM",
+                "time": "10:15 AM",
                 "duration": "30 min",
                 "title": "STATION IDENTITY",
                 "owner": "Mary",
@@ -317,7 +287,7 @@
                 "logistics": "Mary texts/Slacks Josh the top 3 themes by 10:30 so he has them before STATION North Star."
               },
               {
-                "time": "10:40 AM",
+                "time": "10:45 AM",
                 "duration": "15 min",
                 "title": "Break — Josh walks over from Captain America",
                 "owner": "",
@@ -327,7 +297,7 @@
                 "type": "break"
               },
               {
-                "time": "10:55 AM",
+                "time": "11:00 AM",
                 "duration": "35 min",
                 "title": "STATION NORTH STAR",
                 "owner": "Josh",
@@ -336,7 +306,7 @@
                 "logistics": "Josh prep: Mary will text/Slack top themes from her 10:00 session. Review during the break."
               },
               {
-                "time": "11:30 AM",
+                "time": "11:35 AM",
                 "duration": "5 min",
                 "title": "Break",
                 "owner": "",
@@ -346,7 +316,7 @@
                 "type": "break"
               },
               {
-                "time": "11:35 AM",
+                "time": "11:40 AM",
                 "duration": "50 min",
                 "title": "STATION LEADERSHIP REPORTS",
                 "owner": "STATION Dept Leads",
@@ -358,7 +328,7 @@
           }
         },
         {
-          "time": "12:25 PM",
+          "time": "12:30 PM",
           "duration": "10 min",
           "title": "Safety Reminder",
           "owner": "Megan",
@@ -368,7 +338,7 @@
           "type": "session"
         },
         {
-          "time": "12:35 PM",
+          "time": "12:40 PM",
           "duration": "60 min",
           "title": "Lunch & Emails",
           "owner": "",
@@ -378,7 +348,7 @@
           "type": "social"
         },
         {
-          "time": "1:35 PM",
+          "time": "1:40 PM",
           "duration": "25 min",
           "title": "Walk & Talk Round 2 — Someone on another team you work with",
           "owner": "David R.",
@@ -388,8 +358,8 @@
           "type": "activity"
         },
         {
-          "time": "2:00 PM",
-          "duration": "20 min",
+          "time": "2:05 PM",
+          "duration": "15 min",
           "title": "Claude Code Troubleshooting & Advanced Setup",
           "owner": "Fred / Josh / Kyle",
           "format": "Hands-on workshop",
@@ -400,7 +370,7 @@
         {
           "time": "2:20 PM",
           "duration": "10 min",
-          "title": "Break",
+          "title": "Break / Setup",
           "owner": "",
           "format": "",
           "description": "",
@@ -409,16 +379,16 @@
         },
         {
           "time": "2:30 PM",
-          "duration": "90 min",
-          "title": "STARTUP CUP — Build an MVP",
-          "owner": "Fred / Josh / Aless",
-          "format": "Team competition + AI build",
-          "description": "The AI Con centerpiece. Each Startup Cup team gets 90 min to build a working web app using Claude Code. Fun app ideas provided: CF Compliment Generator / DREAMCON Bingo / Lunch Decider / Who Said It? / STATION Tour Guide. Teams submit their URL to COSEA/Josh for judging. Winner announced Day 3. This is where staff see AI go from concept to a real shipped product — in 90 minutes.",
-          "logistics": "Have app idea cards printed. Submission form ready. Seed each team with at least one person who completed Day 1 delegation.school. Float troubleshooters during the build.",
-          "type": "workshop"
+          "duration": "60 min",
+          "title": "Game 2 — PAINT A ROCKET SHIP",
+          "owner": "Kyle / Aless",
+          "format": "Team competition",
+          "description": "Each Startup Cup team uses AI to paint a rocket ship. Josh judges. If needed, do 2 paintings per team — Rocket and Robot.",
+          "logistics": "",
+          "type": "activity"
         },
         {
-          "time": "4:00 PM",
+          "time": "3:30 PM",
           "duration": "15 min",
           "title": "Alumni Spotlight #2",
           "owner": "TBD",
@@ -428,7 +398,7 @@
           "type": "session"
         },
         {
-          "time": "4:15 PM",
+          "time": "3:45 PM",
           "duration": "10 min",
           "title": "Closing Remarks",
           "owner": "Eric Stober",
@@ -438,7 +408,7 @@
           "type": "session"
         },
         {
-          "time": "4:25 PM",
+          "time": "3:55 PM",
           "duration": "",
           "title": "End of Day 2",
           "owner": "",
@@ -522,10 +492,10 @@
         {
           "time": "11:55 AM",
           "duration": "15 min",
-          "title": "Startup Cup Game 3 — Charades",
+          "title": "Game 4 — Spelling Bee",
           "owner": "Kyle / Aless",
           "format": "Competition",
-          "description": "15-min team charades game to break up the day and keep energy high.",
+          "description": "15-min team spelling bee to break up the day and keep energy high.",
           "logistics": "",
           "type": "activity"
         },
@@ -558,7 +528,7 @@
             "sessions": [
               {
                 "time": "1:20 PM",
-                "duration": "65 min",
+                "duration": "60 min",
                 "title": "INTERLOCK Round 2",
                 "owner": "CF Leads",
                 "format": "Small-group working sessions",
@@ -572,7 +542,7 @@
             "sessions": [
               {
                 "time": "1:20 PM",
-                "duration": "65 min",
+                "duration": "60 min",
                 "title": "INTERLOCK Round 2",
                 "owner": "STATION Leads",
                 "format": "Small-group working sessions",
@@ -583,9 +553,9 @@
           }
         },
         {
-          "time": "2:25 PM",
+          "time": "2:20 PM",
           "duration": "15 min",
-          "title": "Startup Cup Game 4 — STATION Trivia",
+          "title": "Game 5 — STATION Trivia",
           "owner": "Kyle / Aless",
           "format": "Competition",
           "description": "15-min STATION trivia game.",
@@ -593,7 +563,7 @@
           "type": "activity"
         },
         {
-          "time": "2:40 PM",
+          "time": "2:35 PM",
           "duration": "90 min",
           "title": "DEPARTMENT WORKING SESSIONS",
           "owner": "Dept Managers",
@@ -603,7 +573,7 @@
           "type": "workshop"
         },
         {
-          "time": "4:10 PM",
+          "time": "4:05 PM",
           "duration": "20 min",
           "title": "FOUNDER STORY: Elysium Robotics",
           "owner": "Rodrigo Alvarez (CEO)",
@@ -613,7 +583,7 @@
           "type": "keynote"
         },
         {
-          "time": "4:30 PM",
+          "time": "4:25 PM",
           "duration": "10 min",
           "title": "Closing Remarks",
           "owner": "Bryan",
@@ -623,7 +593,7 @@
           "type": "session"
         },
         {
-          "time": "4:40 PM",
+          "time": "4:35 PM",
           "duration": "",
           "title": "End of Day 3",
           "owner": "",
